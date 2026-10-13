@@ -232,6 +232,12 @@ select.view-select {
   padding: .625rem; display: flex; flex-direction: column; gap: .375rem;
   scrollbar-width: thin;
 }
+.copy-column {
+  width: 100%; padding: .5rem; font-size: 12px; font-family: var(--font-mono);
+  background: var(--surface-offset); color: var(--text); border-bottom: 1px solid var(--border);
+}
+.copy-column:hover { background: var(--surface-2); }
+.copy-column:disabled { opacity: .45; cursor: default; }
 .stock-card {
   display: flex; align-items: center; justify-content: space-between;
   gap: .375rem; padding: .375rem .5rem;
@@ -366,7 +372,7 @@ table.data-table .substage-pill.s-UNC { background: var(--neutral); color: var(-
       </svg>
       <div>
         <h1>NSE Stock Stage Analysis</h1>
-        <div class="subtitle">Weinstein · 10-Substage · Steve Jacobs Adaptation</div>
+        <div class="subtitle">Weinstein · 10-Substage · RS: NIFTY MidSmallcap 400</div>
       </div>
     </div>
     <div class="header-actions">
@@ -440,7 +446,8 @@ table.data-table .substage-pill.s-UNC { background: var(--neutral); color: var(-
   <div class="universe-note">
     Universe: NSE EQ · mcap > ₹500 cr · 20d avg volume > 70,000 shares · 20d avg ₹ volume > ₹3 cr · 20d avg daily range > 3% ·
     Last trading date: <span id="tradingDate">—</span> ·
-    RS = 63-session return minus NIFTY 50, percentile-ranked within final universe.
+    RS = 63-session return minus NIFTY MidSmallcap 400, percentile-ranked within final universe.
+    Copy TV copies each column's visible symbols. Paste into TradingView's Add symbols dialog.
   </div>
 </div>
 
@@ -646,6 +653,36 @@ function buildStockCard(r) {
   return el;
 }
 
+function tradingViewSymbols(rows) {
+  return [...new Set(rows.map(r => 'NSE:' + r.symbol))].join(',');
+}
+
+async function copyColumn(button, rows) {
+  const text = tradingViewSymbols(rows);
+  if (!text) return;
+  const original = button.textContent;
+  try {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch (_) {
+      const area = document.createElement('textarea');
+      area.value = text; area.style.position = 'fixed'; area.style.opacity = '0';
+      document.body.appendChild(area); area.select();
+      const success = document.execCommand('copy');
+      area.remove();
+      if (!success) throw new Error('Clipboard access blocked');
+    }
+    button.textContent = `Copied ${rows.length} symbols`;
+  } catch (_) {
+    const area = document.createElement('textarea');
+    area.value = text; area.readOnly = true;
+    area.setAttribute('aria-label', 'TradingView symbols: select and copy');
+    button.after(area); area.focus(); area.select();
+    button.textContent = 'Clipboard blocked: copy selected text';
+  }
+  setTimeout(() => { button.textContent = original; }, 2500);
+}
+
 function renderBoard(filterText = '', filterStage = '') {
   const board = $('board');
   board.innerHTML = '';
@@ -666,9 +703,12 @@ function renderBoard(filterText = '', filterStage = '') {
         <span class="head-text"><span class="name">${meta.name}</span> <span class="code">• ${s}</span></span>
         <span class="count">${rows.length}</span>
       </div>
+      <button type="button" class="copy-column" ${rows.length ? '' : 'disabled'}
+        aria-label="Copy all ${s} symbols for TradingView" title="Copy visible symbols as NSE:SYMBOL, comma separated">Copy TV (${rows.length})</button>
       <div class="col-body"></div>
     `;
     const body = col.querySelector('.col-body');
+    col.querySelector('.copy-column').addEventListener('click', e => copyColumn(e.currentTarget, rows));
     for (const r of rows) body.appendChild(buildStockCard(r));
     board.appendChild(col);
   }
@@ -719,6 +759,7 @@ function openModal(r) {
     <div class="modal-field"><label>Avg daily range (20d)</label><div class="val">${r.avg_range_pct_20d != null ? r.avg_range_pct_20d.toFixed(2) + '%' : '—'}</div></div>
     <div class="modal-field"><label>Volume ratio</label><div class="val">${r.vol_ratio != null ? r.vol_ratio.toFixed(2) + 'x' : '—'}</div></div>
     <div class="modal-field"><label>RS percentile</label><div class="val">${r.rs_pct != null ? Math.round(r.rs_pct) : '—'}</div></div>
+    <div class="modal-field"><label>63-session excess return vs MidSmallcap 400</label><div class="val">${r.rs_excess_pct != null ? (r.rs_excess_pct >= 0 ? '+' : '') + r.rs_excess_pct.toFixed(2) + ' pp' : '—'}</div></div>
     <div class="modal-field"><label>ATR above SMA50</label><div class="val">${r.atr_ext_above_sma50 != null ? r.atr_ext_above_sma50.toFixed(2) : '—'}</div></div>
     <div class="modal-field"><label>Steve ext. badge</label><div class="val">${r.steve_extended ? 'Yes (≥7 ATR)' : 'No'}</div></div>
     <div class="modal-field"><label>New 20d high</label><div class="val">${r.new_20d_high ? 'Yes' : 'No'}</div></div>
@@ -758,7 +799,7 @@ function bind() {
       '4A Bearish Trend · Below falling 30w SMA\n' +
       '4B Breakdown Confirm · 4A + new 20-day low\n' +
       '4C Extended Bearish · 4A + ≥3 ATR below 50d SMA\n\n' +
-      'Circular badge = 63-session RS percentile (vs NIFTY 50, ranked in universe).\n' +
+      'Circular badge = 63-session RS percentile (vs NIFTY MidSmallcap 400, ranked in universe).\n' +
       'Purple dot = Steve Jacobs extension (≥7 ATR above SMA50).\n' +
       'ER = days to earnings.'
     );

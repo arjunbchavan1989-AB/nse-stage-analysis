@@ -63,6 +63,7 @@ jobs:
           git config user.name "stage-analysis-bot"
           git config user.email "actions@github.com"
           git add web/data/latest.json web/data/history/ pipeline/data/snapshots/ 2>/dev/null || true
+          git add pipeline/data/benchmark_midsmall400.csv
           if git diff --cached --quiet; then
             echo "No data changes to commit"
           else

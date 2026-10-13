@@ -46,12 +46,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 41.1,
+   "rs_pct": 40.9,
    "atr_ext_above_sma50": -0.01,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -1.5
   },
   {
    "symbol": "AARTIDRUGS",
@@ -65,12 +66,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 60.4,
+   "rs_pct": 60.0,
    "atr_ext_above_sma50": -0.83,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": 8.06
   },
   {
    "symbol": "ABDL",
@@ -84,12 +86,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 74.9,
+   "rs_pct": 74.2,
    "atr_ext_above_sma50": 2.78,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-14"
+   "earnings_date": "2026-05-14",
+   "rs_excess_pct": 17.81
   },
   {
    "symbol": "ABFRL",
@@ -103,12 +106,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 6.4,
+   "rs_pct": 6.8,
    "atr_ext_above_sma50": -4.76,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-04"
+   "earnings_date": "2026-11-04",
+   "rs_excess_pct": -21.56
   },
   {
    "symbol": "ABLBL",
@@ -122,12 +126,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 6.2,
+   "rs_pct": 6.4,
    "atr_ext_above_sma50": -4.31,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-01"
+   "earnings_date": "2026-08-01",
+   "rs_excess_pct": -21.83
   },
   {
    "symbol": "ABREL",
@@ -146,7 +151,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": -21.34
   },
   {
    "symbol": "ABSLAMC",
@@ -160,12 +166,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 22.6,
+   "rs_pct": 22.8,
    "atr_ext_above_sma50": -1.0,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-21"
+   "earnings_date": "2026-07-21",
+   "rs_excess_pct": -11.48
   },
   {
    "symbol": "ACE",
@@ -179,12 +186,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 81.5,
+   "rs_pct": 81.9,
    "atr_ext_above_sma50": 0.83,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2023-11-09"
+   "earnings_date": "2023-11-09",
+   "rs_excess_pct": 26.99
   },
   {
    "symbol": "ACI",
@@ -198,12 +206,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 32.1,
+   "rs_pct": 31.9,
    "atr_ext_above_sma50": -1.17,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": -6.64
   },
   {
    "symbol": "ACMESOLAR",
@@ -217,12 +226,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 69.1,
+   "rs_pct": 68.5,
    "atr_ext_above_sma50": 0.43,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": 13.71
   },
   {
    "symbol": "ACUTAAS",
@@ -236,12 +246,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 36.2,
+   "rs_pct": 35.8,
    "atr_ext_above_sma50": -0.47,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-24"
+   "earnings_date": "2026-07-24",
+   "rs_excess_pct": -4.68
   },
   {
    "symbol": "ADANIENSOL",
@@ -255,12 +266,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 13.2,
+   "rs_pct": 12.8,
    "atr_ext_above_sma50": -3.37,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-22"
+   "earnings_date": "2026-10-22",
+   "rs_excess_pct": -16.71
   },
   {
    "symbol": "ADANIENT",
@@ -274,12 +286,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 23.8,
+   "rs_pct": 24.0,
    "atr_ext_above_sma50": -2.81,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-28"
+   "earnings_date": "2026-10-28",
+   "rs_excess_pct": -10.75
   },
   {
    "symbol": "ADANIPOWER",
@@ -293,12 +306,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 26.4,
+   "rs_pct": 27.0,
    "atr_ext_above_sma50": -2.86,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-23"
+   "earnings_date": "2026-10-23",
+   "rs_excess_pct": -8.58
   },
   {
    "symbol": "ADSL",
@@ -312,12 +326,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 25.5,
+   "rs_pct": 27.7,
    "atr_ext_above_sma50": 0.19,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -8.43
   },
   {
    "symbol": "ADVANCE",
@@ -331,12 +346,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "flat 30w SMA",
-   "rs_pct": 86.0,
+   "rs_pct": 86.2,
    "atr_ext_above_sma50": 3.32,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 31.09
   },
   {
    "symbol": "AEGISLOG",
@@ -355,7 +371,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 12.04
   },
   {
    "symbol": "AEQUS",
@@ -369,12 +386,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 67.5,
+   "rs_pct": 68.9,
    "atr_ext_above_sma50": 1.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 13.81
   },
   {
    "symbol": "AETHER",
@@ -388,12 +406,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 78.5,
+   "rs_pct": 78.7,
    "atr_ext_above_sma50": 0.97,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": 22.53
   },
   {
    "symbol": "AGARWALEYE",
@@ -407,12 +426,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 42.3,
+   "rs_pct": 42.5,
    "atr_ext_above_sma50": -1.97,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": -0.89
   },
   {
    "symbol": "AGI",
@@ -426,12 +446,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 68.3,
+   "rs_pct": 67.9,
    "atr_ext_above_sma50": 0.19,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-02-06"
+   "earnings_date": "2024-02-06",
+   "rs_excess_pct": 13.24
   },
   {
    "symbol": "AHCL",
@@ -450,7 +471,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 103.0
   },
   {
    "symbol": "AJAXENGG",
@@ -464,12 +486,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 44.0,
+   "rs_pct": 43.6,
    "atr_ext_above_sma50": -0.24,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -0.1
   },
   {
    "symbol": "AJMERA",
@@ -488,7 +511,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-07-26"
+   "earnings_date": "2018-07-26",
+   "rs_excess_pct": -9.36
   },
   {
    "symbol": "AKUMS",
@@ -507,7 +531,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-08"
+   "earnings_date": "2026-08-08",
+   "rs_excess_pct": 16.93
   },
   {
    "symbol": "ALEMBICLTD",
@@ -521,12 +546,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 69.4,
+   "rs_pct": 71.7,
    "atr_ext_above_sma50": -0.04,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 15.96
   },
   {
    "symbol": "ALICON",
@@ -540,12 +566,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 91.9,
+   "rs_pct": 91.5,
    "atr_ext_above_sma50": 3.11,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-07-26"
+   "earnings_date": "2019-07-26",
+   "rs_excess_pct": 40.36
   },
   {
    "symbol": "ALLCARGO",
@@ -559,12 +586,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 88.5,
+   "rs_pct": 88.9,
    "atr_ext_above_sma50": -0.58,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-11-13"
+   "earnings_date": "2025-11-13",
+   "rs_excess_pct": 34.62
   },
   {
    "symbol": "ALOKINDS",
@@ -583,7 +611,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2013-02-13"
+   "earnings_date": "2013-02-13",
+   "rs_excess_pct": -25.51
   },
   {
    "symbol": "AMAGI",
@@ -597,12 +626,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 46.8,
+   "rs_pct": 46.0,
    "atr_ext_above_sma50": -1.09,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": 1.38
   },
   {
    "symbol": "AMBER",
@@ -621,7 +651,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": -10.12
   },
   {
    "symbol": "ANANTRAJ",
@@ -635,12 +666,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 43.8,
+   "rs_pct": 47.0,
    "atr_ext_above_sma50": -2.2,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2015-02-13"
+   "earnings_date": "2015-02-13",
+   "rs_excess_pct": 1.81
   },
   {
    "symbol": "ANDHRAPAP",
@@ -654,12 +686,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 78.1,
+   "rs_pct": 78.3,
    "atr_ext_above_sma50": 1.94,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-10-30"
+   "earnings_date": "2019-10-30",
+   "rs_excess_pct": 22.46
   },
   {
    "symbol": "ANGELONE",
@@ -673,12 +706,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 36.4,
+   "rs_pct": 36.0,
    "atr_ext_above_sma50": 1.67,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-15"
+   "earnings_date": "2026-07-15",
+   "rs_excess_pct": -4.46
   },
   {
    "symbol": "ANTELOPUS",
@@ -692,12 +726,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 86.2,
+   "rs_pct": 86.4,
    "atr_ext_above_sma50": 1.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 31.15
   },
   {
    "symbol": "ANURAS",
@@ -711,12 +746,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 37.7,
+   "rs_pct": 37.4,
    "atr_ext_above_sma50": -1.24,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-23"
+   "earnings_date": "2026-05-23",
+   "rs_excess_pct": -3.81
   },
   {
    "symbol": "APCOTEXIND",
@@ -730,12 +766,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 76.2,
+   "rs_pct": 77.0,
    "atr_ext_above_sma50": -0.39,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2022-10-20"
+   "earnings_date": "2022-10-20",
+   "rs_excess_pct": 20.21
   },
   {
    "symbol": "APLAPOLLO",
@@ -749,12 +786,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 79.8,
+   "rs_pct": 80.2,
    "atr_ext_above_sma50": 0.9,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": 23.92
   },
   {
    "symbol": "APLLTD",
@@ -768,12 +806,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 44.9,
+   "rs_pct": 44.5,
    "atr_ext_above_sma50": -1.06,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 0.44
   },
   {
    "symbol": "APOLLO",
@@ -787,12 +826,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 56.0,
+   "rs_pct": 55.8,
    "atr_ext_above_sma50": 0.8,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 5.48
   },
   {
    "symbol": "APOLLOPIPE",
@@ -811,7 +851,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-01-29"
+   "earnings_date": "2026-01-29",
+   "rs_excess_pct": 10.64
   },
   {
    "symbol": "APTUS",
@@ -825,12 +866,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 10.0,
+   "rs_pct": 10.4,
    "atr_ext_above_sma50": -3.24,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": -18.42
   },
   {
    "symbol": "ARFIN",
@@ -849,7 +891,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 28.67
   },
   {
    "symbol": "ARIS",
@@ -863,12 +906,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 89.6,
+   "rs_pct": 87.2,
    "atr_ext_above_sma50": 1.08,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 32.48
   },
   {
    "symbol": "ARVSMART",
@@ -882,12 +926,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 50.8,
+   "rs_pct": 50.4,
    "atr_ext_above_sma50": -0.81,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": 2.75
   },
   {
    "symbol": "ASHAPURMIN",
@@ -906,7 +951,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -27.02
   },
   {
    "symbol": "ASHOKA",
@@ -925,7 +971,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": -15.06
   },
   {
    "symbol": "ASIANENE",
@@ -939,12 +986,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 91.1,
+   "rs_pct": 90.9,
    "atr_ext_above_sma50": -0.31,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 39.43
   },
   {
    "symbol": "ASIANTILES",
@@ -958,12 +1006,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 69.2,
+   "rs_pct": 68.7,
    "atr_ext_above_sma50": 1.32,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-30"
+   "earnings_date": "2020-06-30",
+   "rs_excess_pct": 13.79
   },
   {
    "symbol": "ASKAUTOLTD",
@@ -977,12 +1026,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 87.2,
+   "rs_pct": 87.4,
    "atr_ext_above_sma50": -0.87,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 32.75
   },
   {
    "symbol": "ASTEC",
@@ -996,12 +1046,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 63.4,
+   "rs_pct": 63.2,
    "atr_ext_above_sma50": 1.62,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": 10.08
   },
   {
    "symbol": "ASTERDM",
@@ -1015,12 +1066,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 23.4,
+   "rs_pct": 23.6,
    "atr_ext_above_sma50": -3.51,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-05"
+   "earnings_date": "2026-08-05",
+   "rs_excess_pct": -10.91
   },
   {
    "symbol": "ASTRAMICRO",
@@ -1034,12 +1086,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 47.7,
+   "rs_pct": 51.9,
    "atr_ext_above_sma50": -0.3,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-10"
+   "earnings_date": "2026-08-10",
+   "rs_excess_pct": 3.4
   },
   {
    "symbol": "ATGL",
@@ -1053,12 +1106,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 14.3,
+   "rs_pct": 14.5,
    "atr_ext_above_sma50": -2.94,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-22"
+   "earnings_date": "2026-10-22",
+   "rs_excess_pct": -16.2
   },
   {
    "symbol": "ATHERENERG",
@@ -1072,12 +1126,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 85.7,
+   "rs_pct": 85.5,
    "atr_ext_above_sma50": -0.23,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": 30.63
   },
   {
    "symbol": "ATULAUTO",
@@ -1096,7 +1151,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2023-08-11"
+   "earnings_date": "2023-08-11",
+   "rs_excess_pct": -9.77
   },
   {
    "symbol": "AURUM",
@@ -1110,12 +1166,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 57.5,
+   "rs_pct": 52.5,
    "atr_ext_above_sma50": 1.17,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-20"
+   "earnings_date": "2026-07-20",
+   "rs_excess_pct": 3.54
   },
   {
    "symbol": "AVADHSUGAR",
@@ -1129,12 +1186,13 @@
    "substage": "2C",
    "steve_extended": false,
    "notes": "extended bullish",
-   "rs_pct": 98.7,
+   "rs_pct": 98.9,
    "atr_ext_above_sma50": 5.0,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 89.54
   },
   {
    "symbol": "AVALON",
@@ -1148,12 +1206,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 90.0,
+   "rs_pct": 90.2,
    "atr_ext_above_sma50": 0.66,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 36.97
   },
   {
    "symbol": "AVANTEL",
@@ -1167,12 +1226,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 18.5,
+   "rs_pct": 20.4,
    "atr_ext_above_sma50": -0.83,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.81
   },
   {
    "symbol": "AVANTIFEED",
@@ -1186,12 +1246,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 7.9,
+   "rs_pct": 7.7,
    "atr_ext_above_sma50": -4.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": -20.4
   },
   {
    "symbol": "AVL",
@@ -1205,12 +1266,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 37.0,
+   "rs_pct": 36.6,
    "atr_ext_above_sma50": -1.27,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": -4.28
   },
   {
    "symbol": "AXISCADES",
@@ -1224,12 +1286,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 88.7,
+   "rs_pct": 89.1,
    "atr_ext_above_sma50": 2.87,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2016-02-10"
+   "earnings_date": "2016-02-10",
+   "rs_excess_pct": 34.76
   },
   {
    "symbol": "BAJAJCON",
@@ -1243,12 +1306,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 9.6,
+   "rs_pct": 10.0,
    "atr_ext_above_sma50": 0.29,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-13"
+   "earnings_date": "2026-07-13",
+   "rs_excess_pct": -18.61
   },
   {
    "symbol": "BAJAJHCARE",
@@ -1262,12 +1326,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 44.3,
+   "rs_pct": 44.2,
    "atr_ext_above_sma50": -0.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 0.18
   },
   {
    "symbol": "BALAMINES",
@@ -1281,12 +1346,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 32.3,
+   "rs_pct": 31.7,
    "atr_ext_above_sma50": -0.95,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-27"
+   "earnings_date": "2026-07-27",
+   "rs_excess_pct": -6.76
   },
   {
    "symbol": "BALRAMCHIN",
@@ -1300,12 +1366,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 83.2,
+   "rs_pct": 83.0,
    "atr_ext_above_sma50": 1.62,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": 27.58
   },
   {
    "symbol": "BALUFORGE",
@@ -1319,12 +1386,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 60.8,
+   "rs_pct": 60.6,
    "atr_ext_above_sma50": -1.55,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-07-30"
+   "earnings_date": "2024-07-30",
+   "rs_excess_pct": 8.54
   },
   {
    "symbol": "BANSALWIRE",
@@ -1338,12 +1406,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 46.2,
+   "rs_pct": 48.5,
    "atr_ext_above_sma50": -0.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 2.22
   },
   {
    "symbol": "BBTC",
@@ -1357,12 +1426,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 19.1,
+   "rs_pct": 19.6,
    "atr_ext_above_sma50": -4.92,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -13.37
   },
   {
    "symbol": "BDL",
@@ -1376,12 +1446,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 26.6,
+   "rs_pct": 26.4,
    "atr_ext_above_sma50": -3.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-12"
+   "earnings_date": "2026-11-12",
+   "rs_excess_pct": -9.14
   },
   {
    "symbol": "BECTORFOOD",
@@ -1395,12 +1466,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 82.3,
+   "rs_pct": 81.3,
    "atr_ext_above_sma50": -2.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": 24.83
   },
   {
    "symbol": "BELRISE",
@@ -1414,12 +1486,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 53.8,
+   "rs_pct": 54.0,
    "atr_ext_above_sma50": -0.29,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-14"
+   "earnings_date": "2026-08-14",
+   "rs_excess_pct": 4.03
   },
   {
    "symbol": "BEPL",
@@ -1433,12 +1506,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 78.7,
+   "rs_pct": 78.9,
    "atr_ext_above_sma50": 0.49,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-10-19"
+   "earnings_date": "2019-10-19",
+   "rs_excess_pct": 22.54
   },
   {
    "symbol": "BHARTIHEXA",
@@ -1452,12 +1526,13 @@
    "substage": "3B",
    "steve_extended": false,
    "notes": "fade confirmation",
-   "rs_pct": 48.1,
+   "rs_pct": 47.4,
    "atr_ext_above_sma50": 0.43,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 2.0
   },
   {
    "symbol": "BHEL",
@@ -1471,12 +1546,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 67.2,
+   "rs_pct": 67.4,
    "atr_ext_above_sma50": 1.36,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-14"
+   "earnings_date": "2026-10-14",
+   "rs_excess_pct": 12.56
   },
   {
    "symbol": "BIRLACABLE",
@@ -1495,7 +1571,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-05-17"
+   "earnings_date": "2019-05-17",
+   "rs_excess_pct": 98.74
   },
   {
    "symbol": "BLACKBUCK",
@@ -1514,7 +1591,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": 3.58
   },
   {
    "symbol": "BLSE",
@@ -1533,7 +1611,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 17.02
   },
   {
    "symbol": "BLUESTARCO",
@@ -1547,12 +1626,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 40.2,
+   "rs_pct": 40.0,
    "atr_ext_above_sma50": 1.34,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": -2.68
   },
   {
    "symbol": "BLUESTONE",
@@ -1566,12 +1646,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 89.1,
+   "rs_pct": 89.4,
    "atr_ext_above_sma50": -1.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-20"
+   "earnings_date": "2026-07-20",
+   "rs_excess_pct": 35.29
   },
   {
    "symbol": "BLUSPRING",
@@ -1585,12 +1666,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 90.9,
+   "rs_pct": 90.8,
    "atr_ext_above_sma50": 2.85,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 39.1
   },
   {
    "symbol": "BOMDYEING",
@@ -1604,12 +1686,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 7.7,
+   "rs_pct": 8.1,
    "atr_ext_above_sma50": -4.43,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -20.21
   },
   {
    "symbol": "BOROLTD",
@@ -1623,12 +1706,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 65.1,
+   "rs_pct": 63.8,
    "atr_ext_above_sma50": 1.32,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 10.37
   },
   {
    "symbol": "BRIGADE",
@@ -1642,12 +1726,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 58.1,
+   "rs_pct": 58.3,
    "atr_ext_above_sma50": -1.25,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-28"
+   "earnings_date": "2026-10-28",
+   "rs_excess_pct": 6.7
   },
   {
    "symbol": "BSE",
@@ -1661,12 +1746,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 31.9,
+   "rs_pct": 31.5,
    "atr_ext_above_sma50": 0.37,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": -6.84
   },
   {
    "symbol": "BSOFT",
@@ -1685,7 +1771,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-28"
+   "earnings_date": "2026-10-28",
+   "rs_excess_pct": 3.58
   },
   {
    "symbol": "CAPACITE",
@@ -1704,7 +1791,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-20"
+   "earnings_date": "2026-05-20",
+   "rs_excess_pct": -21.31
   },
   {
    "symbol": "CARBORUNIV",
@@ -1718,12 +1806,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 70.9,
+   "rs_pct": 73.0,
    "atr_ext_above_sma50": 0.77,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": 16.62
   },
   {
    "symbol": "CARRARO",
@@ -1742,7 +1831,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -5.66
   },
   {
    "symbol": "CEIGALL",
@@ -1756,12 +1846,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 63.0,
+   "rs_pct": 57.4,
    "atr_ext_above_sma50": 1.99,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-08"
+   "earnings_date": "2026-08-08",
+   "rs_excess_pct": 6.06
   },
   {
    "symbol": "CEMPRO",
@@ -1775,12 +1866,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 4.3,
+   "rs_pct": 4.5,
    "atr_ext_above_sma50": -2.28,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-28"
+   "earnings_date": "2026-07-28",
+   "rs_excess_pct": -23.66
   },
   {
    "symbol": "CENTUM",
@@ -1794,12 +1886,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 69.6,
+   "rs_pct": 69.1,
    "atr_ext_above_sma50": 0.43,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2017-05-30"
+   "earnings_date": "2017-05-30",
+   "rs_excess_pct": 14.05
   },
   {
    "symbol": "CHOICEIN",
@@ -1813,12 +1906,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 33.4,
+   "rs_pct": 32.6,
    "atr_ext_above_sma50": -1.91,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-04-23"
+   "earnings_date": "2026-04-23",
+   "rs_excess_pct": -6.22
   },
   {
    "symbol": "CLEAN",
@@ -1832,12 +1926,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 59.6,
+   "rs_pct": 59.4,
    "atr_ext_above_sma50": -0.84,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": 7.45
   },
   {
    "symbol": "CLEANMAX",
@@ -1851,12 +1946,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 51.5,
+   "rs_pct": 51.1,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 3.18
   },
   {
    "symbol": "COCHINSHIP",
@@ -1870,12 +1966,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 33.2,
+   "rs_pct": 33.4,
    "atr_ext_above_sma50": -3.68,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-14"
+   "earnings_date": "2026-08-14",
+   "rs_excess_pct": -5.96
   },
   {
    "symbol": "COFFEEDAY",
@@ -1889,12 +1986,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 47.5,
+   "rs_pct": 46.8,
    "atr_ext_above_sma50": 0.32,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-11-13"
+   "earnings_date": "2019-11-13",
+   "rs_excess_pct": 1.75
   },
   {
    "symbol": "CONFIPET",
@@ -1908,12 +2006,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 71.3,
+   "rs_pct": 73.2,
    "atr_ext_above_sma50": 0.23,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 16.86
   },
   {
    "symbol": "CPPLUS",
@@ -1927,12 +2026,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 81.1,
+   "rs_pct": 74.7,
    "atr_ext_above_sma50": 3.45,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 18.73
   },
   {
    "symbol": "CRIZAC",
@@ -1946,12 +2046,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 14.2,
+   "rs_pct": 14.3,
    "atr_ext_above_sma50": -2.5,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": -16.25
   },
   {
    "symbol": "CUPID",
@@ -1970,7 +2071,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 75.15
   },
   {
    "symbol": "CYIENT",
@@ -1984,12 +2086,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 91.3,
+   "rs_pct": 90.6,
    "atr_ext_above_sma50": 3.19,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-22"
+   "earnings_date": "2026-10-22",
+   "rs_excess_pct": 38.16
   },
   {
    "symbol": "CYIENTDLM",
@@ -2008,7 +2111,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-21"
+   "earnings_date": "2026-07-21",
+   "rs_excess_pct": 96.82
   },
   {
    "symbol": "DAMCAPITAL",
@@ -2022,12 +2126,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 31.7,
+   "rs_pct": 31.3,
    "atr_ext_above_sma50": -0.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -6.85
   },
   {
    "symbol": "DATAPATTNS",
@@ -2041,12 +2146,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 47.0,
+   "rs_pct": 46.2,
    "atr_ext_above_sma50": -2.33,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": 1.45
   },
   {
    "symbol": "DBOL",
@@ -2060,12 +2166,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 85.5,
+   "rs_pct": 87.0,
    "atr_ext_above_sma50": 3.39,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 32.01
   },
   {
    "symbol": "DCAL",
@@ -2079,12 +2186,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 9.2,
+   "rs_pct": 9.4,
    "atr_ext_above_sma50": -3.63,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-01-23"
+   "earnings_date": "2020-01-23",
+   "rs_excess_pct": -19.11
   },
   {
    "symbol": "DCI",
@@ -2098,12 +2206,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 79.1,
+   "rs_pct": 79.6,
    "atr_ext_above_sma50": -0.35,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 23.11
   },
   {
    "symbol": "DCMSHRIRAM",
@@ -2117,12 +2226,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 39.6,
+   "rs_pct": 39.4,
    "atr_ext_above_sma50": -1.21,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-10-24"
+   "earnings_date": "2019-10-24",
+   "rs_excess_pct": -2.73
   },
   {
    "symbol": "DELTACORP",
@@ -2136,12 +2246,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 84.0,
+   "rs_pct": 84.7,
    "atr_ext_above_sma50": 2.81,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-11-09"
+   "earnings_date": "2020-11-09",
+   "rs_excess_pct": 28.97
   },
   {
    "symbol": "DHAMPURSUG",
@@ -2155,12 +2266,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 93.8,
+   "rs_pct": 93.4,
    "atr_ext_above_sma50": 3.5,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-01-31"
+   "earnings_date": "2018-01-31",
+   "rs_excess_pct": 45.19
   },
   {
    "symbol": "DHANBANK",
@@ -2174,12 +2286,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 52.3,
+   "rs_pct": 51.7,
    "atr_ext_above_sma50": 1.75,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 3.37
   },
   {
    "symbol": "DIFFNKG",
@@ -2193,12 +2306,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 64.9,
+   "rs_pct": 65.1,
    "atr_ext_above_sma50": -0.3,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 10.9
   },
   {
    "symbol": "DIVGIITTS",
@@ -2212,12 +2326,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 58.9,
+   "rs_pct": 58.7,
    "atr_ext_above_sma50": -2.64,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 7.2
   },
   {
    "symbol": "DPABHUSHAN",
@@ -2236,7 +2351,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 104.53
   },
   {
    "symbol": "DREDGECORP",
@@ -2255,7 +2371,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -8.47
   },
   {
    "symbol": "DYCL",
@@ -2269,12 +2386,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 74.5,
+   "rs_pct": 75.7,
    "atr_ext_above_sma50": -1.43,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 19.36
   },
   {
    "symbol": "EDELWEISS",
@@ -2288,12 +2406,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 67.7,
+   "rs_pct": 67.0,
    "atr_ext_above_sma50": 0.91,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-11"
+   "earnings_date": "2026-11-11",
+   "rs_excess_pct": 12.38
   },
   {
    "symbol": "ELECON",
@@ -2307,12 +2426,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 28.7,
+   "rs_pct": 28.5,
    "atr_ext_above_sma50": 0.32,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-01-25"
+   "earnings_date": "2024-01-25",
+   "rs_excess_pct": -7.92
   },
   {
    "symbol": "ELECTCAST",
@@ -2326,12 +2446,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 50.4,
+   "rs_pct": 50.6,
    "atr_ext_above_sma50": 0.2,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 2.9
   },
   {
    "symbol": "EMAMILTD",
@@ -2350,7 +2471,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-16"
+   "earnings_date": "2026-11-16",
+   "rs_excess_pct": -8.15
   },
   {
    "symbol": "EMBDL",
@@ -2364,12 +2486,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 19.6,
+   "rs_pct": 19.8,
    "atr_ext_above_sma50": -1.72,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-04-26"
+   "earnings_date": "2024-04-26",
+   "rs_excess_pct": -13.32
   },
   {
    "symbol": "EMCURE",
@@ -2383,12 +2506,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 60.9,
+   "rs_pct": 60.8,
    "atr_ext_above_sma50": -0.98,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 8.63
   },
   {
    "symbol": "EMIL",
@@ -2402,12 +2526,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 93.0,
+   "rs_pct": 92.8,
    "atr_ext_above_sma50": 0.13,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": 44.44
   },
   {
    "symbol": "EMMVEE",
@@ -2421,12 +2546,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 30.4,
+   "rs_pct": 30.2,
    "atr_ext_above_sma50": -1.88,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-15"
+   "earnings_date": "2026-07-15",
+   "rs_excess_pct": -7.4
   },
   {
    "symbol": "EMSLIMITED",
@@ -2440,12 +2566,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 6.0,
+   "rs_pct": 5.5,
    "atr_ext_above_sma50": -3.82,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -22.37
   },
   {
    "symbol": "EMUDHRA",
@@ -2459,12 +2586,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 81.3,
+   "rs_pct": 81.1,
    "atr_ext_above_sma50": -0.35,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 24.71
   },
   {
    "symbol": "ENTERO",
@@ -2478,12 +2606,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 88.3,
+   "rs_pct": 88.7,
    "atr_ext_above_sma50": -0.16,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": 34.42
   },
   {
    "symbol": "EPACK",
@@ -2502,7 +2631,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -22.47
   },
   {
    "symbol": "EPACKPEB",
@@ -2516,12 +2646,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 35.8,
+   "rs_pct": 37.7,
    "atr_ext_above_sma50": 1.1,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -3.69
   },
   {
    "symbol": "EPL",
@@ -2535,12 +2666,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 51.7,
+   "rs_pct": 48.9,
    "atr_ext_above_sma50": -0.92,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": 2.25
   },
   {
    "symbol": "EUREKAFORB",
@@ -2554,12 +2686,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 7.0,
+   "rs_pct": 6.6,
    "atr_ext_above_sma50": -5.14,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": -21.81
   },
   {
    "symbol": "EVEREADY",
@@ -2578,7 +2711,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-05"
+   "earnings_date": "2018-11-05",
+   "rs_excess_pct": -5.25
   },
   {
    "symbol": "EXCELSOFT",
@@ -2592,12 +2726,13 @@
    "substage": "3B",
    "steve_extended": false,
    "notes": "fade confirmation",
-   "rs_pct": 62.1,
+   "rs_pct": 61.9,
    "atr_ext_above_sma50": 1.82,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 9.45
   },
   {
    "symbol": "EXICOM",
@@ -2611,12 +2746,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 28.9,
+   "rs_pct": 28.7,
    "atr_ext_above_sma50": -1.66,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -7.9
   },
   {
    "symbol": "FDC",
@@ -2630,12 +2766,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 13.8,
+   "rs_pct": 14.0,
    "atr_ext_above_sma50": -1.18,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-11-08"
+   "earnings_date": "2020-11-08",
+   "rs_excess_pct": -16.49
   },
   {
    "symbol": "FILATEX",
@@ -2654,7 +2791,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-07-24"
+   "earnings_date": "2018-07-24",
+   "rs_excess_pct": 69.61
   },
   {
    "symbol": "FINCABLES",
@@ -2668,12 +2806,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 92.8,
+   "rs_pct": 92.6,
    "atr_ext_above_sma50": 2.76,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-13"
+   "earnings_date": "2026-11-13",
+   "rs_excess_pct": 43.75
   },
   {
    "symbol": "FINOPB",
@@ -2687,12 +2826,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 22.8,
+   "rs_pct": 23.0,
    "atr_ext_above_sma50": -1.14,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-04-29"
+   "earnings_date": "2026-04-29",
+   "rs_excess_pct": -11.38
   },
   {
    "symbol": "FISCHER",
@@ -2706,12 +2846,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 12.8,
+   "rs_pct": 13.0,
    "atr_ext_above_sma50": -3.24,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -16.71
   },
   {
    "symbol": "FLUOROCHEM",
@@ -2725,12 +2866,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 77.0,
+   "rs_pct": 77.5,
    "atr_ext_above_sma50": -0.2,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-13"
+   "earnings_date": "2026-11-13",
+   "rs_excess_pct": 21.14
   },
   {
    "symbol": "FMGOETZE",
@@ -2744,12 +2886,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 45.1,
+   "rs_pct": 47.7,
    "atr_ext_above_sma50": -1.54,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-05-29"
+   "earnings_date": "2018-05-29",
+   "rs_excess_pct": 2.03
   },
   {
    "symbol": "FORTIS",
@@ -2763,12 +2906,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 12.6,
+   "rs_pct": 12.1,
    "atr_ext_above_sma50": -4.82,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-13"
+   "earnings_date": "2026-11-13",
+   "rs_excess_pct": -17.06
   },
   {
    "symbol": "FSL",
@@ -2782,12 +2926,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 70.2,
+   "rs_pct": 69.8,
    "atr_ext_above_sma50": 1.68,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 14.5
   },
   {
    "symbol": "FUSION",
@@ -2806,7 +2951,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-15"
+   "earnings_date": "2026-05-15",
+   "rs_excess_pct": -25.72
   },
   {
    "symbol": "GAEL",
@@ -2820,12 +2966,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 76.4,
+   "rs_pct": 77.2,
    "atr_ext_above_sma50": 0.78,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-01"
+   "earnings_date": "2026-08-01",
+   "rs_excess_pct": 20.65
   },
   {
    "symbol": "GALLANTT",
@@ -2839,12 +2986,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 22.3,
+   "rs_pct": 25.3,
    "atr_ext_above_sma50": 0.91,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-05-21"
+   "earnings_date": "2018-05-21",
+   "rs_excess_pct": -9.89
   },
   {
    "symbol": "GANDHAR",
@@ -2858,12 +3006,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 94.7,
+   "rs_pct": 94.9,
    "atr_ext_above_sma50": 3.66,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 50.9
   },
   {
    "symbol": "GANECOS",
@@ -2877,12 +3026,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 32.5,
+   "rs_pct": 32.3,
    "atr_ext_above_sma50": -0.93,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": -6.53
   },
   {
    "symbol": "GANESHCP",
@@ -2896,12 +3046,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 24.2,
+   "rs_pct": 20.6,
    "atr_ext_above_sma50": -0.34,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.58
   },
   {
    "symbol": "GCSL",
@@ -2915,12 +3066,13 @@
    "substage": "2C",
    "steve_extended": true,
    "notes": "extended bullish",
-   "rs_pct": 94.3,
+   "rs_pct": 93.8,
    "atr_ext_above_sma50": 7.52,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 46.6
   },
   {
    "symbol": "GENESYS",
@@ -2939,7 +3091,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-08-14"
+   "earnings_date": "2018-08-14",
+   "rs_excess_pct": -22.1
   },
   {
    "symbol": "GENUSPOWER",
@@ -2953,12 +3106,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 39.8,
+   "rs_pct": 39.6,
    "atr_ext_above_sma50": -1.54,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-05-11"
+   "earnings_date": "2019-05-11",
+   "rs_excess_pct": -2.73
   },
   {
    "symbol": "GHCLTEXTIL",
@@ -2972,12 +3126,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 80.6,
+   "rs_pct": 75.1,
    "atr_ext_above_sma50": 0.7,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 19.22
   },
   {
    "symbol": "GIPCL",
@@ -2991,12 +3146,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 54.5,
+   "rs_pct": 54.7,
    "atr_ext_above_sma50": -2.36,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-11-12"
+   "earnings_date": "2025-11-12",
+   "rs_excess_pct": 4.4
   },
   {
    "symbol": "GKENERGY",
@@ -3015,7 +3171,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -19.37
   },
   {
    "symbol": "GLAND",
@@ -3034,7 +3191,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-03"
+   "earnings_date": "2026-11-03",
+   "rs_excess_pct": 30.22
   },
   {
    "symbol": "GLAXO",
@@ -3048,12 +3206,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 61.9,
+   "rs_pct": 61.7,
    "atr_ext_above_sma50": -3.14,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": 9.22
   },
   {
    "symbol": "GLOBAL",
@@ -3067,12 +3226,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 93.4,
+   "rs_pct": 93.0,
    "atr_ext_above_sma50": 4.11,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 44.66
   },
   {
    "symbol": "GMBREW",
@@ -3091,7 +3251,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-23"
+   "earnings_date": "2020-06-23",
+   "rs_excess_pct": -0.73
   },
   {
    "symbol": "GMMPFAUDLR",
@@ -3110,7 +3271,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-05"
+   "earnings_date": "2026-08-05",
+   "rs_excess_pct": 75.16
   },
   {
    "symbol": "GODAVARIB",
@@ -3124,12 +3286,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 20.8,
+   "rs_pct": 20.9,
    "atr_ext_above_sma50": -2.44,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.44
   },
   {
    "symbol": "GODIGIT",
@@ -3143,12 +3306,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 39.2,
+   "rs_pct": 39.1,
    "atr_ext_above_sma50": 2.46,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": -2.97
   },
   {
    "symbol": "GODREJAGRO",
@@ -3162,12 +3326,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 73.0,
+   "rs_pct": 72.8,
    "atr_ext_above_sma50": 0.66,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-05"
+   "earnings_date": "2026-08-05",
+   "rs_excess_pct": 16.56
   },
   {
    "symbol": "GODREJIND",
@@ -3181,12 +3346,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 4.5,
+   "rs_pct": 4.9,
    "atr_ext_above_sma50": -4.36,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-13"
+   "earnings_date": "2026-11-13",
+   "rs_excess_pct": -23.37
   },
   {
    "symbol": "GOKULAGRO",
@@ -3200,12 +3366,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 46.4,
+   "rs_pct": 45.8,
    "atr_ext_above_sma50": -2.35,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2017-11-22"
+   "earnings_date": "2017-11-22",
+   "rs_excess_pct": 1.06
   },
   {
    "symbol": "GOODLUCK",
@@ -3219,12 +3386,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 61.1,
+   "rs_pct": 60.9,
    "atr_ext_above_sma50": 2.85,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2017-09-14"
+   "earnings_date": "2017-09-14",
+   "rs_excess_pct": 8.76
   },
   {
    "symbol": "GPPL",
@@ -3238,12 +3406,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "flat 30w SMA",
-   "rs_pct": 70.6,
+   "rs_pct": 72.5,
    "atr_ext_above_sma50": 1.93,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 16.41
   },
   {
    "symbol": "GPTINFRA",
@@ -3257,12 +3426,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "flat 30w SMA",
-   "rs_pct": 54.2,
+   "rs_pct": 54.3,
    "atr_ext_above_sma50": 1.22,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-06-01"
+   "earnings_date": "2018-06-01",
+   "rs_excess_pct": 4.03
   },
   {
    "symbol": "GRANULES",
@@ -3276,12 +3446,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 35.7,
+   "rs_pct": 34.2,
    "atr_ext_above_sma50": -1.26,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-21"
+   "earnings_date": "2026-07-21",
+   "rs_excess_pct": -5.37
   },
   {
    "symbol": "GRAPHITE",
@@ -3295,12 +3466,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 86.6,
+   "rs_pct": 88.1,
    "atr_ext_above_sma50": 1.22,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 34.01
   },
   {
    "symbol": "GRAUWEIL",
@@ -3314,12 +3486,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 47.9,
+   "rs_pct": 47.2,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 1.99
   },
   {
    "symbol": "GREAVESCOT",
@@ -3333,12 +3506,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 15.5,
+   "rs_pct": 16.6,
    "atr_ext_above_sma50": 0.72,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-08-08"
+   "earnings_date": "2024-08-08",
+   "rs_excess_pct": -14.89
   },
   {
    "symbol": "GRMOVER",
@@ -3352,12 +3526,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 45.3,
+   "rs_pct": 44.7,
    "atr_ext_above_sma50": 1.47,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 0.5
   },
   {
    "symbol": "GRSE",
@@ -3371,12 +3546,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 17.0,
+   "rs_pct": 17.7,
    "atr_ext_above_sma50": -4.47,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": -14.5
   },
   {
    "symbol": "GUJALKALI",
@@ -3390,12 +3566,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 47.4,
+   "rs_pct": 46.6,
    "atr_ext_above_sma50": -3.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-11-07"
+   "earnings_date": "2019-11-07",
+   "rs_excess_pct": 1.72
   },
   {
    "symbol": "GUJENERGY",
@@ -3409,12 +3586,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 10.4,
+   "rs_pct": 10.6,
    "atr_ext_above_sma50": -4.35,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": -18.27
   },
   {
    "symbol": "GUJTHEM",
@@ -3428,12 +3606,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 48.5,
+   "rs_pct": 50.0,
    "atr_ext_above_sma50": -1.03,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 2.47
   },
   {
    "symbol": "GVPIL",
@@ -3447,12 +3626,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 13.4,
+   "rs_pct": 13.2,
    "atr_ext_above_sma50": -1.33,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2013-01-28"
+   "earnings_date": "2013-01-28",
+   "rs_excess_pct": -16.68
   },
   {
    "symbol": "GVT&D",
@@ -3466,12 +3646,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 39.4,
+   "rs_pct": 39.2,
    "atr_ext_above_sma50": -0.89,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -2.95
   },
   {
    "symbol": "GYFTR",
@@ -3485,12 +3666,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 59.4,
+   "rs_pct": 59.2,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 7.37
   },
   {
    "symbol": "HARIOMPIPE",
@@ -3504,12 +3686,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 30.2,
+   "rs_pct": 30.0,
    "atr_ext_above_sma50": -1.62,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -7.5
   },
   {
    "symbol": "HARSHA",
@@ -3523,12 +3706,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 61.5,
+   "rs_pct": 66.6,
    "atr_ext_above_sma50": -0.02,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": 12.24
   },
   {
    "symbol": "HATSUN",
@@ -3542,12 +3726,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 85.3,
+   "rs_pct": 84.9,
    "atr_ext_above_sma50": 1.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-26"
+   "earnings_date": "2026-10-26",
+   "rs_excess_pct": 30.12
   },
   {
    "symbol": "HDFCLIFE",
@@ -3561,12 +3746,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 48.7,
+   "rs_pct": 47.9,
    "atr_ext_above_sma50": 1.3,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-15"
+   "earnings_date": "2026-10-15",
+   "rs_excess_pct": 2.1
   },
   {
    "symbol": "HEGAM",
@@ -3585,7 +3771,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-22"
+   "earnings_date": "2026-07-22",
+   "rs_excess_pct": -55.59
   },
   {
    "symbol": "HERITGFOOD",
@@ -3599,12 +3786,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 77.7,
+   "rs_pct": 77.9,
    "atr_ext_above_sma50": 0.84,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-16"
+   "earnings_date": "2026-07-16",
+   "rs_excess_pct": 21.43
   },
   {
    "symbol": "HEXT",
@@ -3623,7 +3811,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": 3.64
   },
   {
    "symbol": "HGINFRA",
@@ -3637,12 +3826,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 4.7,
+   "rs_pct": 4.3,
    "atr_ext_above_sma50": -4.48,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": -23.73
   },
   {
    "symbol": "HITECH",
@@ -3656,12 +3846,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 16.0,
+   "rs_pct": 14.7,
    "atr_ext_above_sma50": -2.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-05-26"
+   "earnings_date": "2025-05-26",
+   "rs_excess_pct": -16.08
   },
   {
    "symbol": "HOMEFIRST",
@@ -3675,12 +3866,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 27.0,
+   "rs_pct": 26.8,
    "atr_ext_above_sma50": -1.91,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-27"
+   "earnings_date": "2026-07-27",
+   "rs_excess_pct": -8.82
   },
   {
    "symbol": "HONASA",
@@ -3694,12 +3886,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 51.9,
+   "rs_pct": 51.3,
    "atr_ext_above_sma50": -0.18,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": 3.3
   },
   {
    "symbol": "HUBTOWN",
@@ -3718,7 +3911,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -19.82
   },
   {
    "symbol": "ICIL",
@@ -3732,12 +3926,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 67.9,
+   "rs_pct": 70.9,
    "atr_ext_above_sma50": 0.57,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 15.13
   },
   {
    "symbol": "IDEAFORGE",
@@ -3751,12 +3946,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 21.3,
+   "rs_pct": 21.5,
    "atr_ext_above_sma50": -0.59,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.25
   },
   {
    "symbol": "IFCI",
@@ -3770,12 +3966,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 38.7,
+   "rs_pct": 40.4,
    "atr_ext_above_sma50": -2.03,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2015-05-26"
+   "earnings_date": "2015-05-26",
+   "rs_excess_pct": -2.26
   },
   {
    "symbol": "IGIL",
@@ -3789,12 +3986,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 37.9,
+   "rs_pct": 37.5,
    "atr_ext_above_sma50": -1.51,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": -3.8
   },
   {
    "symbol": "IGPL",
@@ -3813,7 +4011,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-14"
+   "earnings_date": "2018-11-14",
+   "rs_excess_pct": 33.77
   },
   {
    "symbol": "IKIO",
@@ -3827,12 +4026,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 34.0,
+   "rs_pct": 35.7,
    "atr_ext_above_sma50": -1.92,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -4.98
   },
   {
    "symbol": "IMAGICAA",
@@ -3846,12 +4046,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 55.5,
+   "rs_pct": 53.8,
    "atr_ext_above_sma50": -1.48,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-08-01"
+   "earnings_date": "2019-08-01",
+   "rs_excess_pct": 4.02
   },
   {
    "symbol": "INDGN",
@@ -3865,12 +4066,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 74.3,
+   "rs_pct": 76.2,
    "atr_ext_above_sma50": 0.05,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": 19.69
   },
   {
    "symbol": "INDIACEM",
@@ -3884,12 +4086,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 12.5,
+   "rs_pct": 12.6,
    "atr_ext_above_sma50": -4.95,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-18"
+   "earnings_date": "2026-07-18",
+   "rs_excess_pct": -16.84
   },
   {
    "symbol": "INDIAGLYCO",
@@ -3908,7 +4111,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-24"
+   "earnings_date": "2020-06-24",
+   "rs_excess_pct": -63.18
   },
   {
    "symbol": "INDNIPPON",
@@ -3922,12 +4126,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 45.5,
+   "rs_pct": 45.1,
    "atr_ext_above_sma50": 0.15,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-02-10"
+   "earnings_date": "2020-02-10",
+   "rs_excess_pct": 0.59
   },
   {
    "symbol": "INDOAMIN",
@@ -3941,12 +4146,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 84.5,
+   "rs_pct": 85.7,
    "atr_ext_above_sma50": 2.49,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 30.74
   },
   {
    "symbol": "INDOBORAX",
@@ -3960,12 +4166,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 56.4,
+   "rs_pct": 56.6,
    "atr_ext_above_sma50": 0.43,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 5.81
   },
   {
    "symbol": "INDORAMA",
@@ -3979,12 +4186,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 98.5,
+   "rs_pct": 98.7,
    "atr_ext_above_sma50": 2.12,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 89.08
   },
   {
    "symbol": "INFOBEAN",
@@ -3998,12 +4206,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 40.9,
+   "rs_pct": 40.8,
    "atr_ext_above_sma50": 0.19,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -1.59
   },
   {
    "symbol": "INOXGREEN",
@@ -4017,12 +4226,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 1.9,
+   "rs_pct": 1.7,
    "atr_ext_above_sma50": -4.52,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -31.55
   },
   {
    "symbol": "INOXWIND",
@@ -4041,7 +4251,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": -9.32
   },
   {
    "symbol": "IOLCP",
@@ -4055,12 +4266,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 75.8,
+   "rs_pct": 76.4,
    "atr_ext_above_sma50": 0.71,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2022-05-30"
+   "earnings_date": "2022-05-30",
+   "rs_excess_pct": 19.82
   },
   {
    "symbol": "IONEXCHANG",
@@ -4074,12 +4286,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 25.3,
+   "rs_pct": 25.5,
    "atr_ext_above_sma50": -0.93,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -9.86
   },
   {
    "symbol": "IPL",
@@ -4093,12 +4306,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 16.8,
+   "rs_pct": 17.2,
    "atr_ext_above_sma50": -2.76,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -14.72
   },
   {
    "symbol": "IRB",
@@ -4112,12 +4326,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 29.8,
+   "rs_pct": 29.6,
    "atr_ext_above_sma50": -1.64,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": -7.62
   },
   {
    "symbol": "IRCON",
@@ -4136,7 +4351,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-22"
+   "earnings_date": "2026-05-22",
+   "rs_excess_pct": -15.41
   },
   {
    "symbol": "IRISDOREME",
@@ -4150,12 +4366,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 90.4,
+   "rs_pct": 91.1,
    "atr_ext_above_sma50": -0.34,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 39.76
   },
   {
    "symbol": "ISGEC",
@@ -4169,12 +4386,13 @@
    "substage": "3B",
    "steve_extended": false,
    "notes": "fade confirmation",
-   "rs_pct": 56.8,
+   "rs_pct": 57.0,
    "atr_ext_above_sma50": 3.15,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 5.85
   },
   {
    "symbol": "ITI",
@@ -4188,12 +4406,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 23.2,
+   "rs_pct": 21.7,
    "atr_ext_above_sma50": -2.8,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-26"
+   "earnings_date": "2020-06-26",
+   "rs_excess_pct": -12.17
   },
   {
    "symbol": "IVALUE",
@@ -4212,7 +4431,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -20.1
   },
   {
    "symbol": "IXIGO",
@@ -4231,7 +4451,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": -28.78
   },
   {
    "symbol": "JAIBALAJI",
@@ -4245,12 +4466,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 51.3,
+   "rs_pct": 50.9,
    "atr_ext_above_sma50": -0.18,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-05-12"
+   "earnings_date": "2025-05-12",
+   "rs_excess_pct": 3.14
   },
   {
    "symbol": "JAICORPLTD",
@@ -4264,12 +4486,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 10.2,
+   "rs_pct": 9.8,
    "atr_ext_above_sma50": -3.42,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2014-08-19"
+   "earnings_date": "2014-08-19",
+   "rs_excess_pct": -18.78
   },
   {
    "symbol": "JAINREC",
@@ -4288,7 +4511,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -10.32
   },
   {
    "symbol": "JAMNAAUTO",
@@ -4307,7 +4531,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2023-05-29"
+   "earnings_date": "2023-05-29",
+   "rs_excess_pct": 12.1
   },
   {
    "symbol": "JARO",
@@ -4321,12 +4546,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 11.5,
+   "rs_pct": 11.3,
    "atr_ext_above_sma50": -2.6,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -17.58
   },
   {
    "symbol": "JASH",
@@ -4340,12 +4566,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 58.7,
+   "rs_pct": 61.5,
    "atr_ext_above_sma50": 1.67,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 9.08
   },
   {
    "symbol": "JAYBARMARU",
@@ -4359,12 +4586,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 0.9,
+   "rs_pct": 1.1,
    "atr_ext_above_sma50": -0.84,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-10-17"
+   "earnings_date": "2019-10-17",
+   "rs_excess_pct": -34.05
   },
   {
    "symbol": "JAYNECOIND",
@@ -4378,12 +4606,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 57.7,
+   "rs_pct": 57.9,
    "atr_ext_above_sma50": 0.9,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 6.5
   },
   {
    "symbol": "JGCHEM",
@@ -4397,12 +4626,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 92.6,
+   "rs_pct": 94.2,
    "atr_ext_above_sma50": 0.76,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 46.88
   },
   {
    "symbol": "JINDALSTEL",
@@ -4416,12 +4646,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 54.9,
+   "rs_pct": 55.1,
    "atr_ext_above_sma50": -2.69,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-28"
+   "earnings_date": "2026-10-28",
+   "rs_excess_pct": 4.72
   },
   {
    "symbol": "JINDRILL",
@@ -4435,12 +4666,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 37.5,
+   "rs_pct": 37.2,
    "atr_ext_above_sma50": -1.75,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -4.07
   },
   {
    "symbol": "JINDWORLD",
@@ -4454,12 +4686,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 94.2,
+   "rs_pct": 94.0,
    "atr_ext_above_sma50": -0.42,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-08-13"
+   "earnings_date": "2018-08-13",
+   "rs_excess_pct": 46.79
   },
   {
    "symbol": "JSFB",
@@ -4473,12 +4706,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 58.3,
+   "rs_pct": 57.5,
    "atr_ext_above_sma50": -1.59,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 6.13
   },
   {
    "symbol": "JSLL",
@@ -4497,7 +4731,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -28.06
   },
   {
    "symbol": "JSWINFRA",
@@ -4511,12 +4746,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 49.1,
+   "rs_pct": 48.1,
    "atr_ext_above_sma50": 0.19,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-21"
+   "earnings_date": "2026-07-21",
+   "rs_excess_pct": 2.19
   },
   {
    "symbol": "JWL",
@@ -4530,12 +4766,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 21.1,
+   "rs_pct": 21.3,
    "atr_ext_above_sma50": -3.39,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.29
   },
   {
    "symbol": "JYOTISTRUC",
@@ -4549,12 +4786,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 14.0,
+   "rs_pct": 14.2,
    "atr_ext_above_sma50": -2.31,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2014-05-30"
+   "earnings_date": "2014-05-30",
+   "rs_excess_pct": -16.26
   },
   {
    "symbol": "KALYANKJIL",
@@ -4568,12 +4806,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 72.8,
+   "rs_pct": 72.3,
    "atr_ext_above_sma50": -0.87,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-08"
+   "earnings_date": "2026-05-08",
+   "rs_excess_pct": 16.25
   },
   {
    "symbol": "KARURVYSYA",
@@ -4587,12 +4826,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 74.2,
+   "rs_pct": 74.0,
    "atr_ext_above_sma50": 1.29,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-15"
+   "earnings_date": "2026-10-15",
+   "rs_excess_pct": 17.47
   },
   {
    "symbol": "KAYNES",
@@ -4611,7 +4851,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": 3.55
   },
   {
    "symbol": "KEC",
@@ -4625,12 +4866,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 4.9,
+   "rs_pct": 5.1,
    "atr_ext_above_sma50": -4.11,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-10"
+   "earnings_date": "2026-08-10",
+   "rs_excess_pct": -23.03
   },
   {
    "symbol": "KIMS",
@@ -4644,12 +4886,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 31.3,
+   "rs_pct": 30.9,
    "atr_ext_above_sma50": -2.5,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": -6.94
   },
   {
    "symbol": "KIOCL",
@@ -4663,12 +4906,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 47.2,
+   "rs_pct": 46.4,
    "atr_ext_above_sma50": 0.55,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 1.64
   },
   {
    "symbol": "KIRIINDUS",
@@ -4682,12 +4926,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 88.9,
+   "rs_pct": 89.2,
    "atr_ext_above_sma50": 0.91,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-11-12"
+   "earnings_date": "2019-11-12",
+   "rs_excess_pct": 35.05
   },
   {
    "symbol": "KIRLOSBROS",
@@ -4701,12 +4946,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 29.6,
+   "rs_pct": 29.4,
    "atr_ext_above_sma50": -2.27,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2023-08-01"
+   "earnings_date": "2023-08-01",
+   "rs_excess_pct": -7.69
   },
   {
    "symbol": "KIRLOSENG",
@@ -4720,12 +4966,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 33.0,
+   "rs_pct": 33.2,
    "atr_ext_above_sma50": 0.16,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-02-12"
+   "earnings_date": "2024-02-12",
+   "rs_excess_pct": -6.05
   },
   {
    "symbol": "KIRLPNU",
@@ -4744,7 +4991,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-21"
+   "earnings_date": "2026-07-21",
+   "rs_excess_pct": -22.08
   },
   {
    "symbol": "KISSHT",
@@ -4758,12 +5006,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 76.0,
+   "rs_pct": 76.8,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 20.16
   },
   {
    "symbol": "KITEX",
@@ -4777,12 +5026,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 8.1,
+   "rs_pct": 7.9,
    "atr_ext_above_sma50": -2.73,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-07-29"
+   "earnings_date": "2020-07-29",
+   "rs_excess_pct": -20.33
   },
   {
    "symbol": "KMEW",
@@ -4796,12 +5046,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 90.6,
+   "rs_pct": 92.5,
    "atr_ext_above_sma50": 2.51,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 43.08
   },
   {
    "symbol": "KNACK",
@@ -4815,12 +5066,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 56.6,
+   "rs_pct": 56.8,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 5.81
   },
   {
    "symbol": "KNRCON",
@@ -4834,12 +5086,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 30.0,
+   "rs_pct": 29.8,
    "atr_ext_above_sma50": -2.33,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": -7.53
   },
   {
    "symbol": "KOLTEPATIL",
@@ -4853,12 +5106,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 70.8,
+   "rs_pct": 70.4,
    "atr_ext_above_sma50": -0.78,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-22"
+   "earnings_date": "2026-05-22",
+   "rs_excess_pct": 14.82
   },
   {
    "symbol": "KPEL",
@@ -4872,12 +5126,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 1.1,
+   "rs_pct": 1.3,
    "atr_ext_above_sma50": -4.36,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -33.71
   },
   {
    "symbol": "KPIGREEN",
@@ -4891,12 +5146,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 17.7,
+   "rs_pct": 18.1,
    "atr_ext_above_sma50": 0.07,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -14.27
   },
   {
    "symbol": "KPIL",
@@ -4910,12 +5166,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 63.6,
+   "rs_pct": 64.9,
    "atr_ext_above_sma50": 0.73,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": 10.83
   },
   {
    "symbol": "KRISHNADEF",
@@ -4929,12 +5186,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 38.5,
+   "rs_pct": 38.3,
    "atr_ext_above_sma50": 1.72,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -3.52
   },
   {
    "symbol": "KRN",
@@ -4953,7 +5211,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 17.2
   },
   {
    "symbol": "KROSS",
@@ -4967,12 +5226,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 89.2,
+   "rs_pct": 89.6,
    "atr_ext_above_sma50": 1.28,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 35.89
   },
   {
    "symbol": "KSCL",
@@ -4986,12 +5246,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 19.4,
+   "rs_pct": 19.2,
    "atr_ext_above_sma50": -1.14,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-26"
+   "earnings_date": "2026-05-26",
+   "rs_excess_pct": -13.59
   },
   {
    "symbol": "KSHINTL",
@@ -5005,12 +5266,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 76.8,
+   "rs_pct": 77.4,
    "atr_ext_above_sma50": 0.24,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 21.12
   },
   {
    "symbol": "KSL",
@@ -5024,12 +5286,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 54.7,
+   "rs_pct": 54.9,
    "atr_ext_above_sma50": 1.51,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-01-29"
+   "earnings_date": "2020-01-29",
+   "rs_excess_pct": 4.62
   },
   {
    "symbol": "LALPATHLAB",
@@ -5043,12 +5306,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 71.7,
+   "rs_pct": 71.1,
    "atr_ext_above_sma50": -0.19,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-23"
+   "earnings_date": "2026-10-23",
+   "rs_excess_pct": 15.19
   },
   {
    "symbol": "LANDMARK",
@@ -5062,12 +5326,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 66.0,
+   "rs_pct": 69.6,
    "atr_ext_above_sma50": -2.27,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 14.36
   },
   {
    "symbol": "LASERPOWER",
@@ -5086,7 +5351,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": null
   },
   {
    "symbol": "LATENTVIEW",
@@ -5100,12 +5366,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 13.0,
+   "rs_pct": 12.5,
    "atr_ext_above_sma50": -3.17,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-01"
+   "earnings_date": "2026-08-01",
+   "rs_excess_pct": -16.85
   },
   {
    "symbol": "LLOYDSENT",
@@ -5119,12 +5386,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 34.2,
+   "rs_pct": 34.0,
    "atr_ext_above_sma50": -1.23,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -5.58
   },
   {
    "symbol": "LOKESHMACH",
@@ -5138,12 +5406,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 93.2,
+   "rs_pct": 94.5,
    "atr_ext_above_sma50": 3.79,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-02-09"
+   "earnings_date": "2018-02-09",
+   "rs_excess_pct": 48.26
   },
   {
    "symbol": "LTF",
@@ -5157,12 +5426,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 19.8,
+   "rs_pct": 18.5,
    "atr_ext_above_sma50": -4.11,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-15"
+   "earnings_date": "2026-10-15",
+   "rs_excess_pct": -13.96
   },
   {
    "symbol": "LTM",
@@ -5176,12 +5446,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 57.9,
+   "rs_pct": 58.1,
    "atr_ext_above_sma50": -1.27,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-16"
+   "earnings_date": "2026-10-16",
+   "rs_excess_pct": 6.63
   },
   {
    "symbol": "LUMAXTECH",
@@ -5195,12 +5466,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 84.7,
+   "rs_pct": 85.8,
    "atr_ext_above_sma50": -1.42,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-10"
+   "earnings_date": "2026-08-10",
+   "rs_excess_pct": 30.74
   },
   {
    "symbol": "M&MFIN",
@@ -5214,12 +5486,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 49.8,
+   "rs_pct": 49.4,
    "atr_ext_above_sma50": -3.59,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-12-02"
+   "earnings_date": "2026-12-02",
+   "rs_excess_pct": 2.35
   },
   {
    "symbol": "MACPOWER",
@@ -5233,12 +5506,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 94.5,
+   "rs_pct": 94.7,
    "atr_ext_above_sma50": 0.35,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 48.78
   },
   {
    "symbol": "MAHABANK",
@@ -5252,12 +5526,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 57.0,
+   "rs_pct": 57.2,
    "atr_ext_above_sma50": 0.79,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2013-10-29"
+   "earnings_date": "2013-10-29",
+   "rs_excess_pct": 5.86
   },
   {
    "symbol": "MAHLIFE",
@@ -5271,12 +5546,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 39.1,
+   "rs_pct": 38.9,
    "atr_ext_above_sma50": -1.42,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": -3.0
   },
   {
    "symbol": "MAHLOG",
@@ -5295,7 +5571,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-20"
+   "earnings_date": "2026-07-20",
+   "rs_excess_pct": 11.5
   },
   {
    "symbol": "MANALIPETC",
@@ -5309,12 +5586,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 87.5,
+   "rs_pct": 87.9,
    "atr_ext_above_sma50": 1.18,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-10-23"
+   "earnings_date": "2018-10-23",
+   "rs_excess_pct": 33.82
   },
   {
    "symbol": "MANINFRA",
@@ -5328,12 +5606,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 70.4,
+   "rs_pct": 70.0,
    "atr_ext_above_sma50": -0.66,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-08-14"
+   "earnings_date": "2018-08-14",
+   "rs_excess_pct": 14.62
   },
   {
    "symbol": "MANORAMA",
@@ -5347,12 +5626,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 83.0,
+   "rs_pct": 82.1,
    "atr_ext_above_sma50": 1.82,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 27.06
   },
   {
    "symbol": "MANYAVAR",
@@ -5366,12 +5646,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 86.4,
+   "rs_pct": 86.6,
    "atr_ext_above_sma50": -1.3,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-25"
+   "earnings_date": "2026-07-25",
+   "rs_excess_pct": 31.39
   },
   {
    "symbol": "MARINE",
@@ -5385,12 +5666,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 98.9,
+   "rs_pct": 98.5,
    "atr_ext_above_sma50": 3.16,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 88.83
   },
   {
    "symbol": "MARSONS",
@@ -5404,12 +5686,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 68.5,
+   "rs_pct": 68.1,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 13.36
   },
   {
    "symbol": "MASFIN",
@@ -5423,12 +5706,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 18.1,
+   "rs_pct": 18.7,
    "atr_ext_above_sma50": -2.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": -13.88
   },
   {
    "symbol": "MASTEK",
@@ -5447,7 +5731,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-23"
+   "earnings_date": "2026-10-23",
+   "rs_excess_pct": 2.49
   },
   {
    "symbol": "MASTERTR",
@@ -5461,12 +5746,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 31.1,
+   "rs_pct": 33.0,
    "atr_ext_above_sma50": -0.56,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -6.15
   },
   {
    "symbol": "MAXESTATES",
@@ -5485,7 +5771,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-02-06"
+   "earnings_date": "2026-02-06",
+   "rs_excess_pct": 27.27
   },
   {
    "symbol": "MAXHEALTH",
@@ -5499,12 +5786,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 11.1,
+   "rs_pct": 13.6,
    "atr_ext_above_sma50": -4.68,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-20"
+   "earnings_date": "2026-11-20",
+   "rs_excess_pct": -16.58
   },
   {
    "symbol": "MBAPL",
@@ -5518,12 +5806,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 82.1,
+   "rs_pct": 82.3,
    "atr_ext_above_sma50": -0.13,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 27.08
   },
   {
    "symbol": "MBEL",
@@ -5542,7 +5831,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-10"
+   "earnings_date": "2026-08-10",
+   "rs_excess_pct": -14.53
   },
   {
    "symbol": "MCLOUD",
@@ -5556,12 +5846,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 17.9,
+   "rs_pct": 18.3,
    "atr_ext_above_sma50": -2.91,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -14.14
   },
   {
    "symbol": "MCX",
@@ -5575,12 +5866,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 79.2,
+   "rs_pct": 81.7,
    "atr_ext_above_sma50": 1.4,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": 26.99
   },
   {
    "symbol": "MEDANTA",
@@ -5594,12 +5886,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 46.0,
+   "rs_pct": 45.7,
    "atr_ext_above_sma50": -3.0,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": 0.83
   },
   {
    "symbol": "MEDIASSIST",
@@ -5613,12 +5906,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 20.6,
+   "rs_pct": 20.8,
    "atr_ext_above_sma50": -2.63,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.46
   },
   {
    "symbol": "METROBRAND",
@@ -5632,12 +5926,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 20.2,
+   "rs_pct": 15.5,
    "atr_ext_above_sma50": -1.03,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": -15.81
   },
   {
    "symbol": "METROPOLIS",
@@ -5651,12 +5946,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 42.5,
+   "rs_pct": 44.9,
    "atr_ext_above_sma50": -1.89,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-04"
+   "earnings_date": "2026-11-04",
+   "rs_excess_pct": 0.51
   },
   {
    "symbol": "MFSL",
@@ -5670,12 +5966,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 17.4,
+   "rs_pct": 17.0,
    "atr_ext_above_sma50": -3.56,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-27"
+   "earnings_date": "2026-10-27",
+   "rs_excess_pct": -14.8
   },
   {
    "symbol": "MIDHANI",
@@ -5694,7 +5991,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-30"
+   "earnings_date": "2020-06-30",
+   "rs_excess_pct": 10.45
   },
   {
    "symbol": "MMFL",
@@ -5708,12 +6006,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 67.0,
+   "rs_pct": 66.8,
    "atr_ext_above_sma50": -2.09,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2022-05-25"
+   "earnings_date": "2022-05-25",
+   "rs_excess_pct": 12.35
   },
   {
    "symbol": "MMTC",
@@ -5732,7 +6031,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -8.1
   },
   {
    "symbol": "MOLDTKPAC",
@@ -5746,12 +6046,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 48.9,
+   "rs_pct": 48.7,
    "atr_ext_above_sma50": -0.75,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-27"
+   "earnings_date": "2026-07-27",
+   "rs_excess_pct": 2.25
   },
   {
    "symbol": "MOTILALOFS",
@@ -5765,12 +6066,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 68.1,
+   "rs_pct": 67.7,
    "atr_ext_above_sma50": 2.42,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": 13.19
   },
   {
    "symbol": "MOTISONS",
@@ -5784,12 +6086,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 85.8,
+   "rs_pct": 83.4,
    "atr_ext_above_sma50": 1.73,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 28.02
   },
   {
    "symbol": "MRPL",
@@ -5808,7 +6111,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2021-02-01"
+   "earnings_date": "2021-02-01",
+   "rs_excess_pct": 11.2
   },
   {
    "symbol": "MTNL",
@@ -5822,12 +6126,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 18.9,
+   "rs_pct": 19.4,
    "atr_ext_above_sma50": -1.4,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -13.44
   },
   {
    "symbol": "MUFIN",
@@ -5846,7 +6151,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 10.44
   },
   {
    "symbol": "MUTHOOTMF",
@@ -5865,7 +6171,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -25.62
   },
   {
    "symbol": "NACLIND",
@@ -5884,7 +6191,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-08-20"
+   "earnings_date": "2018-08-20",
+   "rs_excess_pct": -42.85
   },
   {
    "symbol": "NATIONALUM",
@@ -5903,7 +6211,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": -5.19
   },
   {
    "symbol": "NAUKRI",
@@ -5922,7 +6231,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-11"
+   "earnings_date": "2026-11-11",
+   "rs_excess_pct": 7.08
   },
   {
    "symbol": "NAVKARCORP",
@@ -5936,12 +6246,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 10.6,
+   "rs_pct": 10.8,
    "atr_ext_above_sma50": -3.03,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-01-23"
+   "earnings_date": "2024-01-23",
+   "rs_excess_pct": -18.13
   },
   {
    "symbol": "NCC",
@@ -5960,7 +6271,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": -9.54
   },
   {
    "symbol": "NELCAST",
@@ -5974,12 +6286,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 57.2,
+   "rs_pct": 60.2,
    "atr_ext_above_sma50": 2.34,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-05"
+   "earnings_date": "2018-11-05",
+   "rs_excess_pct": 8.12
   },
   {
    "symbol": "NELCO",
@@ -5993,12 +6306,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 41.9,
+   "rs_pct": 41.5,
    "atr_ext_above_sma50": -2.4,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-07-24"
+   "earnings_date": "2019-07-24",
+   "rs_excess_pct": -1.01
   },
   {
    "symbol": "NEOGEN",
@@ -6012,12 +6326,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 80.0,
+   "rs_pct": 79.4,
    "atr_ext_above_sma50": 2.74,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-24"
+   "earnings_date": "2026-07-24",
+   "rs_excess_pct": 23.02
   },
   {
    "symbol": "NETWEB",
@@ -6031,12 +6346,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 75.3,
+   "rs_pct": 75.5,
    "atr_ext_above_sma50": 0.63,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-28"
+   "earnings_date": "2026-07-28",
+   "rs_excess_pct": 19.31
   },
   {
    "symbol": "NEWGEN",
@@ -6050,12 +6366,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 15.8,
+   "rs_pct": 9.2,
    "atr_ext_above_sma50": -2.1,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-16"
+   "earnings_date": "2026-07-16",
+   "rs_excess_pct": -19.27
   },
   {
    "symbol": "NIITMTS",
@@ -6069,12 +6386,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 12.3,
+   "rs_pct": 11.9,
    "atr_ext_above_sma50": -2.92,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": -17.12
   },
   {
    "symbol": "NITCO",
@@ -6088,12 +6406,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 10.9,
+   "rs_pct": 11.1,
    "atr_ext_above_sma50": -2.39,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -17.86
   },
   {
    "symbol": "NITINSPIN",
@@ -6107,12 +6426,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 67.4,
+   "rs_pct": 67.5,
    "atr_ext_above_sma50": 0.31,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2017-11-14"
+   "earnings_date": "2017-11-14",
+   "rs_excess_pct": 12.64
   },
   {
    "symbol": "NIVABUPA",
@@ -6126,12 +6446,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 30.9,
+   "rs_pct": 30.8,
    "atr_ext_above_sma50": -1.16,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-08"
+   "earnings_date": "2026-05-08",
+   "rs_excess_pct": -7.09
   },
   {
    "symbol": "NOCIL",
@@ -6145,12 +6466,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 43.6,
+   "rs_pct": 43.8,
    "atr_ext_above_sma50": -1.2,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": -0.09
   },
   {
    "symbol": "NOVARTIND",
@@ -6164,12 +6486,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 80.2,
+   "rs_pct": 80.4,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 24.06
   },
   {
    "symbol": "NPST",
@@ -6183,12 +6506,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 75.1,
+   "rs_pct": 75.3,
    "atr_ext_above_sma50": 1.49,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 19.3
   },
   {
    "symbol": "NRBBEARING",
@@ -6202,12 +6526,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 81.7,
+   "rs_pct": 81.5,
    "atr_ext_above_sma50": 1.07,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-02-13"
+   "earnings_date": "2024-02-13",
+   "rs_excess_pct": 25.63
   },
   {
    "symbol": "NSLNISP",
@@ -6221,12 +6546,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 40.0,
+   "rs_pct": 39.8,
    "atr_ext_above_sma50": -2.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -2.7
   },
   {
    "symbol": "NUVAMA",
@@ -6240,12 +6566,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 41.3,
+   "rs_pct": 41.1,
    "atr_ext_above_sma50": 0.99,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": -1.4
   },
   {
    "symbol": "NUVOCO",
@@ -6259,12 +6586,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 55.7,
+   "rs_pct": 56.2,
    "atr_ext_above_sma50": -1.14,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-13"
+   "earnings_date": "2026-07-13",
+   "rs_excess_pct": 5.69
   },
   {
    "symbol": "NYKAA",
@@ -6278,12 +6606,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 59.2,
+   "rs_pct": 59.1,
    "atr_ext_above_sma50": 0.4,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": 7.36
   },
   {
    "symbol": "OFSS",
@@ -6302,7 +6631,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-16"
+   "earnings_date": "2026-10-16",
+   "rs_excess_pct": -4.98
   },
   {
    "symbol": "OLAELEC",
@@ -6321,7 +6651,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-07"
+   "earnings_date": "2026-08-07",
+   "rs_excess_pct": -8.51
   },
   {
    "symbol": "OMAXE",
@@ -6335,12 +6666,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 72.3,
+   "rs_pct": 70.8,
    "atr_ext_above_sma50": -1.23,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 15.12
   },
   {
    "symbol": "ONEPOINT",
@@ -6359,7 +6691,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 57.99
   },
   {
    "symbol": "ONESOURCE",
@@ -6373,12 +6706,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 27.7,
+   "rs_pct": 31.1,
    "atr_ext_above_sma50": -1.59,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-24"
+   "earnings_date": "2026-07-24",
+   "rs_excess_pct": -6.93
   },
   {
    "symbol": "ORCHPHARMA",
@@ -6392,12 +6726,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 43.0,
+   "rs_pct": 43.2,
    "atr_ext_above_sma50": -0.85,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-14"
+   "earnings_date": "2026-08-14",
+   "rs_excess_pct": -0.28
   },
   {
    "symbol": "PANACEABIO",
@@ -6411,12 +6746,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 1.7,
+   "rs_pct": 2.1,
    "atr_ext_above_sma50": -2.6,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2011-10-29"
+   "earnings_date": "2011-10-29",
+   "rs_excess_pct": -30.91
   },
   {
    "symbol": "PANAMAPET",
@@ -6430,12 +6766,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 79.4,
+   "rs_pct": 82.8,
    "atr_ext_above_sma50": 0.6,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-08-10"
+   "earnings_date": "2018-08-10",
+   "rs_excess_pct": 27.52
   },
   {
    "symbol": "PARACABLES",
@@ -6449,12 +6786,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 23.6,
+   "rs_pct": 23.8,
    "atr_ext_above_sma50": -2.33,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -10.9
   },
   {
    "symbol": "PARADEEP",
@@ -6468,12 +6806,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 52.1,
+   "rs_pct": 51.5,
    "atr_ext_above_sma50": -2.09,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-02-04"
+   "earnings_date": "2025-02-04",
+   "rs_excess_pct": 3.31
   },
   {
    "symbol": "PARAGMILK",
@@ -6487,12 +6826,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 89.4,
+   "rs_pct": 89.8,
    "atr_ext_above_sma50": 3.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 35.96
   },
   {
    "symbol": "PARKHOSPS",
@@ -6506,12 +6846,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 17.2,
+   "rs_pct": 17.9,
    "atr_ext_above_sma50": -3.91,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": -14.47
   },
   {
    "symbol": "PASHUPATI",
@@ -6525,12 +6866,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 21.9,
+   "rs_pct": 14.9,
    "atr_ext_above_sma50": -1.41,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -16.0
   },
   {
    "symbol": "PAYTM",
@@ -6544,12 +6886,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 83.4,
+   "rs_pct": 83.6,
    "atr_ext_above_sma50": 0.91,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-03"
+   "earnings_date": "2026-11-03",
+   "rs_excess_pct": 28.13
   },
   {
    "symbol": "PCJEWELLER",
@@ -6563,12 +6906,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 94.0,
+   "rs_pct": 93.6,
    "atr_ext_above_sma50": 2.91,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-05-25"
+   "earnings_date": "2018-05-25",
+   "rs_excess_pct": 46.57
   },
   {
    "symbol": "PENIND",
@@ -6582,12 +6926,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 54.0,
+   "rs_pct": 54.2,
    "atr_ext_above_sma50": 0.46,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 4.03
   },
   {
    "symbol": "PFOCUS",
@@ -6601,12 +6946,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 60.0,
+   "rs_pct": 59.8,
    "atr_ext_above_sma50": -1.21,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 7.95
   },
   {
    "symbol": "PHOENIXLTD",
@@ -6620,12 +6966,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 30.8,
+   "rs_pct": 30.6,
    "atr_ext_above_sma50": -0.14,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": -7.24
   },
   {
    "symbol": "PICCADIL",
@@ -6639,12 +6986,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 14.5,
+   "rs_pct": 15.1,
    "atr_ext_above_sma50": -3.55,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -15.99
   },
   {
    "symbol": "PINELABS",
@@ -6663,7 +7011,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-28"
+   "earnings_date": "2026-07-28",
+   "rs_excess_pct": 11.01
   },
   {
    "symbol": "PIRAMALFIN",
@@ -6677,12 +7026,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 40.6,
+   "rs_pct": 38.7,
    "atr_ext_above_sma50": -1.29,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-16"
+   "earnings_date": "2026-07-16",
+   "rs_excess_pct": -3.11
   },
   {
    "symbol": "PIXTRANS",
@@ -6696,12 +7046,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 57.4,
+   "rs_pct": 57.7,
    "atr_ext_above_sma50": 1.35,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 6.34
   },
   {
    "symbol": "PNBHOUSING",
@@ -6715,12 +7066,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 68.7,
+   "rs_pct": 68.3,
    "atr_ext_above_sma50": 2.33,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 13.57
   },
   {
    "symbol": "PNCINFRA",
@@ -6734,12 +7086,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 1.3,
+   "rs_pct": 0.6,
    "atr_ext_above_sma50": -3.25,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-08"
+   "earnings_date": "2026-08-08",
+   "rs_excess_pct": -38.99
   },
   {
    "symbol": "PNGJL",
@@ -6753,12 +7106,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 54.3,
+   "rs_pct": 54.5,
    "atr_ext_above_sma50": -0.55,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 4.24
   },
   {
    "symbol": "PNGSREVA",
@@ -6777,7 +7131,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 71.56
   },
   {
    "symbol": "POCL",
@@ -6796,7 +7151,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -20.18
   },
   {
    "symbol": "POKARNA",
@@ -6815,7 +7171,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-11-13"
+   "earnings_date": "2019-11-13",
+   "rs_excess_pct": -28.75
   },
   {
    "symbol": "POONAWALLA",
@@ -6829,12 +7186,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 36.0,
+   "rs_pct": 40.2,
    "atr_ext_above_sma50": -1.69,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2027-01-15"
+   "earnings_date": "2027-01-15",
+   "rs_excess_pct": -2.28
   },
   {
    "symbol": "PPLPHARMA",
@@ -6848,12 +7206,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 74.0,
+   "rs_pct": 74.5,
    "atr_ext_above_sma50": -1.85,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-04"
+   "earnings_date": "2026-11-04",
+   "rs_excess_pct": 18.4
   },
   {
    "symbol": "PRECWIRE",
@@ -6867,12 +7226,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 82.8,
+   "rs_pct": 85.3,
    "atr_ext_above_sma50": 0.67,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-11-12"
+   "earnings_date": "2019-11-12",
+   "rs_excess_pct": 30.45
   },
   {
    "symbol": "PREMIERPOL",
@@ -6891,7 +7251,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-02-05"
+   "earnings_date": "2018-02-05",
+   "rs_excess_pct": 72.18
   },
   {
    "symbol": "PRICOLLTD",
@@ -6905,12 +7266,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 66.8,
+   "rs_pct": 67.2,
    "atr_ext_above_sma50": -3.07,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": 12.52
   },
   {
    "symbol": "PRINCEPIPE",
@@ -6924,12 +7286,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 46.6,
+   "rs_pct": 53.6,
    "atr_ext_above_sma50": -1.1,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": 3.86
   },
   {
    "symbol": "PROTEAN",
@@ -6948,7 +7311,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-02-11"
+   "earnings_date": "2026-02-11",
+   "rs_excess_pct": 10.42
   },
   {
    "symbol": "PRSMJOHNSN",
@@ -6962,12 +7326,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 29.2,
+   "rs_pct": 29.1,
    "atr_ext_above_sma50": -3.11,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-08-07"
+   "earnings_date": "2025-08-07",
+   "rs_excess_pct": -7.83
   },
   {
    "symbol": "PURVA",
@@ -6986,7 +7351,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-02-14"
+   "earnings_date": "2020-02-14",
+   "rs_excess_pct": -10.36
   },
   {
    "symbol": "PVRINOX",
@@ -7000,12 +7366,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 92.1,
+   "rs_pct": 91.9,
    "atr_ext_above_sma50": 3.22,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-16"
+   "earnings_date": "2026-10-16",
+   "rs_excess_pct": 42.06
   },
   {
    "symbol": "QPOWER",
@@ -7024,7 +7391,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 28.62
   },
   {
    "symbol": "QUESS",
@@ -7038,12 +7406,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 72.5,
+   "rs_pct": 71.5,
    "atr_ext_above_sma50": -0.79,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-28"
+   "earnings_date": "2026-10-28",
+   "rs_excess_pct": 15.75
   },
   {
    "symbol": "RAJOOENG",
@@ -7057,12 +7426,13 @@
    "substage": "3B",
    "steve_extended": false,
    "notes": "fade confirmation",
-   "rs_pct": 81.9,
+   "rs_pct": 84.5,
    "atr_ext_above_sma50": 2.58,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 28.85
   },
   {
    "symbol": "RAJRATAN",
@@ -7076,12 +7446,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 41.7,
+   "rs_pct": 41.3,
    "atr_ext_above_sma50": -1.88,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-07-23"
+   "earnings_date": "2025-07-23",
+   "rs_excess_pct": -1.1
   },
   {
    "symbol": "RATEGAIN",
@@ -7095,12 +7466,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 38.9,
+   "rs_pct": 38.5,
    "atr_ext_above_sma50": -0.58,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": -3.15
   },
   {
    "symbol": "RAYMONDLSL",
@@ -7114,12 +7486,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 10.8,
+   "rs_pct": 10.9,
    "atr_ext_above_sma50": -3.88,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-06"
+   "earnings_date": "2026-05-06",
+   "rs_excess_pct": -18.12
   },
   {
    "symbol": "RBA",
@@ -7133,12 +7506,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 83.8,
+   "rs_pct": 84.0,
    "atr_ext_above_sma50": -1.4,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": 28.33
   },
   {
    "symbol": "REDINGTON",
@@ -7152,12 +7526,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 92.3,
+   "rs_pct": 92.1,
    "atr_ext_above_sma50": 1.3,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-04"
+   "earnings_date": "2026-11-04",
+   "rs_excess_pct": 42.87
   },
   {
    "symbol": "REDTAPE",
@@ -7171,12 +7546,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 20.4,
+   "rs_pct": 20.2,
    "atr_ext_above_sma50": -2.22,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -12.82
   },
   {
    "symbol": "REGAAL",
@@ -7190,12 +7566,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 72.1,
+   "rs_pct": 63.0,
    "atr_ext_above_sma50": 0.42,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 9.98
   },
   {
    "symbol": "RELAXO",
@@ -7209,12 +7586,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 6.8,
+   "rs_pct": 6.0,
    "atr_ext_above_sma50": -4.84,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-12"
+   "earnings_date": "2026-11-12",
+   "rs_excess_pct": -22.08
   },
   {
    "symbol": "RENUKA",
@@ -7228,12 +7606,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 51.1,
+   "rs_pct": 49.6,
    "atr_ext_above_sma50": -0.5,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2012-05-29"
+   "earnings_date": "2012-05-29",
+   "rs_excess_pct": 2.37
   },
   {
    "symbol": "RESPONIND",
@@ -7247,12 +7626,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 16.6,
+   "rs_pct": 16.8,
    "atr_ext_above_sma50": -1.0,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2014-11-14"
+   "earnings_date": "2014-11-14",
+   "rs_excess_pct": -14.88
   },
   {
    "symbol": "RGL",
@@ -7266,12 +7646,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 93.6,
+   "rs_pct": 93.2,
    "atr_ext_above_sma50": 2.9,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-29"
+   "earnings_date": "2020-06-29",
+   "rs_excess_pct": 44.92
   },
   {
    "symbol": "RHETAN",
@@ -7285,12 +7666,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 2.1,
+   "rs_pct": 1.5,
    "atr_ext_above_sma50": -4.15,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -32.14
   },
   {
    "symbol": "RHIM",
@@ -7309,7 +7691,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2023-05-30"
+   "earnings_date": "2023-05-30",
+   "rs_excess_pct": -5.8
   },
   {
    "symbol": "RICOAUTO",
@@ -7323,12 +7706,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 28.5,
+   "rs_pct": 32.1,
    "atr_ext_above_sma50": -3.16,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-08-02"
+   "earnings_date": "2019-08-02",
+   "rs_excess_pct": -6.6
   },
   {
    "symbol": "RIR",
@@ -7347,7 +7731,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": null
   },
   {
    "symbol": "RISHABH",
@@ -7361,12 +7746,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 61.3,
+   "rs_pct": 61.1,
    "atr_ext_above_sma50": -0.47,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 8.82
   },
   {
    "symbol": "RITES",
@@ -7380,12 +7766,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 30.6,
+   "rs_pct": 30.4,
    "atr_ext_above_sma50": -2.03,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-19"
+   "earnings_date": "2026-05-19",
+   "rs_excess_pct": -7.35
   },
   {
    "symbol": "ROLEXRINGS",
@@ -7399,12 +7786,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 78.3,
+   "rs_pct": 78.5,
    "atr_ext_above_sma50": -0.53,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-05"
+   "earnings_date": "2026-08-05",
+   "rs_excess_pct": 22.51
   },
   {
    "symbol": "ROSSTECH",
@@ -7418,12 +7806,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 95.1,
+   "rs_pct": 95.8,
    "atr_ext_above_sma50": 3.65,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 58.47
   },
   {
    "symbol": "RSL",
@@ -7437,12 +7826,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 90.2,
+   "rs_pct": 90.4,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 37.09
   },
   {
    "symbol": "RTNINDIA",
@@ -7461,7 +7851,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -20.07
   },
   {
    "symbol": "RUBICON",
@@ -7475,12 +7866,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 63.8,
+   "rs_pct": 63.6,
    "atr_ext_above_sma50": -2.63,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-14"
+   "earnings_date": "2026-08-14",
+   "rs_excess_pct": 10.36
   },
   {
    "symbol": "RVNL",
@@ -7499,7 +7891,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -10.35
   },
   {
    "symbol": "SAIL",
@@ -7513,12 +7906,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 59.8,
+   "rs_pct": 59.6,
    "atr_ext_above_sma50": -1.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": 7.88
   },
   {
    "symbol": "SAILIFE",
@@ -7532,12 +7926,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 75.5,
+   "rs_pct": 75.8,
    "atr_ext_above_sma50": -0.81,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 19.39
   },
   {
    "symbol": "SALSTEEL",
@@ -7551,12 +7946,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 94.9,
+   "rs_pct": 95.1,
    "atr_ext_above_sma50": 1.46,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 54.06
   },
   {
    "symbol": "SAMBHV",
@@ -7570,12 +7966,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 91.5,
+   "rs_pct": 91.3,
    "atr_ext_above_sma50": 3.65,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 40.11
   },
   {
    "symbol": "SAMMAANCAP",
@@ -7589,12 +7986,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 18.3,
+   "rs_pct": 19.1,
    "atr_ext_above_sma50": -2.81,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-29"
+   "earnings_date": "2026-10-29",
+   "rs_excess_pct": -13.64
   },
   {
    "symbol": "SANATHAN",
@@ -7613,7 +8011,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 24.64
   },
   {
    "symbol": "SANDHAR",
@@ -7627,12 +8026,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 15.1,
+   "rs_pct": 15.8,
    "atr_ext_above_sma50": -4.09,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-21"
+   "earnings_date": "2026-05-21",
+   "rs_excess_pct": -15.77
   },
   {
    "symbol": "SANSERA",
@@ -7646,12 +8046,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 87.9,
+   "rs_pct": 88.3,
    "atr_ext_above_sma50": 1.22,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 34.11
   },
   {
    "symbol": "SAPPHIRE",
@@ -7665,12 +8066,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 62.6,
+   "rs_pct": 62.5,
    "atr_ext_above_sma50": -3.12,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-24"
+   "earnings_date": "2026-07-24",
+   "rs_excess_pct": 9.63
   },
   {
    "symbol": "SAREGAMA",
@@ -7684,12 +8086,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 55.3,
+   "rs_pct": 55.5,
    "atr_ext_above_sma50": -0.2,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-02-10"
+   "earnings_date": "2025-02-10",
+   "rs_excess_pct": 5.02
   },
   {
    "symbol": "SBCL",
@@ -7708,7 +8111,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 55.58
   },
   {
    "symbol": "SBFC",
@@ -7722,12 +8126,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 43.4,
+   "rs_pct": 42.3,
    "atr_ext_above_sma50": -1.4,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-01-24"
+   "earnings_date": "2026-01-24",
+   "rs_excess_pct": -0.92
   },
   {
    "symbol": "SCHNEIDER",
@@ -7741,12 +8146,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 29.1,
+   "rs_pct": 28.9,
    "atr_ext_above_sma50": -0.77,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-14"
+   "earnings_date": "2026-08-14",
+   "rs_excess_pct": -7.83
   },
   {
    "symbol": "SCI",
@@ -7760,12 +8166,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 50.6,
+   "rs_pct": 52.3,
    "atr_ext_above_sma50": -0.64,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-11-06"
+   "earnings_date": "2020-11-06",
+   "rs_excess_pct": 3.51
   },
   {
    "symbol": "SCODATUBES",
@@ -7779,12 +8186,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 14.7,
+   "rs_pct": 15.3,
    "atr_ext_above_sma50": -1.5,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -15.94
   },
   {
    "symbol": "SDBL",
@@ -7798,12 +8206,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 66.6,
+   "rs_pct": 66.0,
    "atr_ext_above_sma50": 0.01,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-02"
+   "earnings_date": "2018-11-02",
+   "rs_excess_pct": 11.8
   },
   {
    "symbol": "SEDEMAC",
@@ -7817,12 +8226,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 76.6,
+   "rs_pct": 79.8,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-28"
+   "earnings_date": "2026-07-28",
+   "rs_excess_pct": 23.66
   },
   {
    "symbol": "SENCO",
@@ -7836,12 +8246,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 29.4,
+   "rs_pct": 29.2,
    "atr_ext_above_sma50": -1.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": -7.76
   },
   {
    "symbol": "SENORES",
@@ -7855,12 +8266,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 38.1,
+   "rs_pct": 37.9,
    "atr_ext_above_sma50": -1.77,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-27"
+   "earnings_date": "2026-07-27",
+   "rs_excess_pct": -3.54
   },
   {
    "symbol": "SEPC",
@@ -7879,7 +8291,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -10.36
   },
   {
    "symbol": "SERVOTECH",
@@ -7893,12 +8306,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 4.2,
+   "rs_pct": 4.0,
    "atr_ext_above_sma50": -3.35,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -24.09
   },
   {
    "symbol": "SETL",
@@ -7917,7 +8331,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 41.82
   },
   {
    "symbol": "SFL",
@@ -7936,7 +8351,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-26"
+   "earnings_date": "2020-06-26",
+   "rs_excess_pct": -20.62
   },
   {
    "symbol": "SGMART",
@@ -7950,12 +8366,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 84.9,
+   "rs_pct": 83.2,
    "atr_ext_above_sma50": 0.64,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 27.85
   },
   {
    "symbol": "SHAILY",
@@ -7969,12 +8386,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 74.7,
+   "rs_pct": 74.9,
    "atr_ext_above_sma50": -0.62,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-08"
+   "earnings_date": "2026-08-08",
+   "rs_excess_pct": 19.13
   },
   {
    "symbol": "SHAKTIPUMP",
@@ -7988,12 +8406,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 6.6,
+   "rs_pct": 7.0,
    "atr_ext_above_sma50": -3.99,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-08-12"
+   "earnings_date": "2019-08-12",
+   "rs_excess_pct": -21.51
   },
   {
    "symbol": "SHILPAMED",
@@ -8007,12 +8426,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 95.8,
+   "rs_pct": 96.6,
    "atr_ext_above_sma50": 1.24,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-05"
+   "earnings_date": "2026-08-05",
+   "rs_excess_pct": 66.02
   },
   {
    "symbol": "SHK",
@@ -8026,12 +8446,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 63.2,
+   "rs_pct": 63.4,
    "atr_ext_above_sma50": -2.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-28"
+   "earnings_date": "2026-07-28",
+   "rs_excess_pct": 10.26
   },
   {
    "symbol": "SHREEPUSHK",
@@ -8045,12 +8466,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 78.9,
+   "rs_pct": 79.2,
    "atr_ext_above_sma50": 1.51,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-05"
+   "earnings_date": "2018-11-05",
+   "rs_excess_pct": 22.95
   },
   {
    "symbol": "SHRINGARMS",
@@ -8064,12 +8486,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "flat 30w SMA",
-   "rs_pct": 90.8,
+   "rs_pct": 76.6,
    "atr_ext_above_sma50": 6.53,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 19.96
   },
   {
    "symbol": "SHRIPISTON",
@@ -8083,12 +8506,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 60.2,
+   "rs_pct": 62.8,
    "atr_ext_above_sma50": -0.97,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-11"
+   "earnings_date": "2026-05-11",
+   "rs_excess_pct": 9.96
   },
   {
    "symbol": "SIGNATURE",
@@ -8102,12 +8526,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 22.5,
+   "rs_pct": 22.6,
    "atr_ext_above_sma50": -2.51,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": -11.48
   },
   {
    "symbol": "SILVERTUC",
@@ -8126,7 +8551,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -28.93
   },
   {
    "symbol": "SIMPLEXINF",
@@ -8140,12 +8566,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 40.8,
+   "rs_pct": 40.6,
    "atr_ext_above_sma50": -0.31,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-11-14"
+   "earnings_date": "2019-11-14",
+   "rs_excess_pct": -1.95
   },
   {
    "symbol": "SKIPPER",
@@ -8164,7 +8591,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-08-12"
+   "earnings_date": "2019-08-12",
+   "rs_excess_pct": -0.57
   },
   {
    "symbol": "SKMEGGPROD",
@@ -8178,12 +8606,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 0.6,
+   "rs_pct": 0.8,
    "atr_ext_above_sma50": -2.6,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -36.33
   },
   {
    "symbol": "SKYGOLD",
@@ -8197,12 +8626,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 96.4,
+   "rs_pct": 96.0,
    "atr_ext_above_sma50": 4.45,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-09"
+   "earnings_date": "2026-08-09",
+   "rs_excess_pct": 60.51
   },
   {
    "symbol": "SMCGLOBAL",
@@ -8221,7 +8651,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 57.81
   },
   {
    "symbol": "SMSPHARMA",
@@ -8235,12 +8666,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 69.8,
+   "rs_pct": 69.2,
    "atr_ext_above_sma50": 1.58,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2017-05-30"
+   "earnings_date": "2017-05-30",
+   "rs_excess_pct": 14.06
   },
   {
    "symbol": "SOBHA",
@@ -8254,12 +8686,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 11.7,
+   "rs_pct": 11.5,
    "atr_ext_above_sma50": -2.14,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-20"
+   "earnings_date": "2026-07-20",
+   "rs_excess_pct": -17.49
   },
   {
    "symbol": "SOLARA",
@@ -8273,12 +8706,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 73.2,
+   "rs_pct": 74.3,
    "atr_ext_above_sma50": 0.59,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2023-01-25"
+   "earnings_date": "2023-01-25",
+   "rs_excess_pct": 18.34
   },
   {
    "symbol": "SOLARINDS",
@@ -8292,12 +8726,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 71.5,
+   "rs_pct": 70.6,
    "atr_ext_above_sma50": 0.33,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-20"
+   "earnings_date": "2026-11-20",
+   "rs_excess_pct": 15.07
   },
   {
    "symbol": "SOLARWORLD",
@@ -8311,12 +8746,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 0.8,
+   "rs_pct": 0.9,
    "atr_ext_above_sma50": -3.0,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -35.68
   },
   {
    "symbol": "SOMANYCERA",
@@ -8330,12 +8766,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 72.6,
+   "rs_pct": 72.1,
    "atr_ext_above_sma50": 1.99,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 16.17
   },
   {
    "symbol": "SONACOMS",
@@ -8349,12 +8786,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 80.4,
+   "rs_pct": 80.6,
    "atr_ext_above_sma50": -0.03,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-22"
+   "earnings_date": "2026-10-22",
+   "rs_excess_pct": 24.09
   },
   {
    "symbol": "SONATSOFTW",
@@ -8368,12 +8806,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 12.1,
+   "rs_pct": 11.7,
    "atr_ext_above_sma50": -3.61,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-12"
+   "earnings_date": "2026-11-12",
+   "rs_excess_pct": -17.18
   },
   {
    "symbol": "SOTL",
@@ -8387,12 +8826,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 87.0,
+   "rs_pct": 86.8,
    "atr_ext_above_sma50": 1.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-02-03"
+   "earnings_date": "2020-02-03",
+   "rs_excess_pct": 31.83
   },
   {
    "symbol": "SOUTHBANK",
@@ -8411,7 +8851,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-01-21"
+   "earnings_date": "2025-01-21",
+   "rs_excess_pct": 11.52
   },
   {
    "symbol": "SPARC",
@@ -8425,12 +8866,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 5.1,
+   "rs_pct": 4.7,
    "atr_ext_above_sma50": -1.17,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -23.61
   },
   {
    "symbol": "SPLPETRO",
@@ -8444,12 +8886,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 62.8,
+   "rs_pct": 62.6,
    "atr_ext_above_sma50": 0.25,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-01-21"
+   "earnings_date": "2020-01-21",
+   "rs_excess_pct": 9.7
   },
   {
    "symbol": "SSWL",
@@ -8463,12 +8906,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 96.8,
+   "rs_pct": 97.0,
    "atr_ext_above_sma50": 3.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-05-27"
+   "earnings_date": "2019-05-27",
+   "rs_excess_pct": 68.59
   },
   {
    "symbol": "STARHEALTH",
@@ -8482,12 +8926,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 40.4,
+   "rs_pct": 41.9,
    "atr_ext_above_sma50": -0.32,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-27"
+   "earnings_date": "2026-10-27",
+   "rs_excess_pct": -0.95
   },
   {
    "symbol": "STEELCAS",
@@ -8501,12 +8946,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 77.4,
+   "rs_pct": 77.7,
    "atr_ext_above_sma50": 1.08,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 21.31
   },
   {
    "symbol": "STEELXIND",
@@ -8520,12 +8966,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 26.8,
+   "rs_pct": 26.6,
    "atr_ext_above_sma50": -0.97,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -9.1
   },
   {
    "symbol": "STLNETWORK",
@@ -8544,7 +8991,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 70.69
   },
   {
    "symbol": "STOVEKRAFT",
@@ -8558,12 +9006,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 59.1,
+   "rs_pct": 58.9,
    "atr_ext_above_sma50": 0.29,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-03"
+   "earnings_date": "2026-08-03",
+   "rs_excess_pct": 7.35
   },
   {
    "symbol": "STUDDS",
@@ -8577,12 +9026,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 37.2,
+   "rs_pct": 36.8,
    "atr_ext_above_sma50": -0.4,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -4.24
   },
   {
    "symbol": "STYL",
@@ -8596,12 +9046,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 41.5,
+   "rs_pct": 43.0,
    "atr_ext_above_sma50": -1.87,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -0.31
   },
   {
    "symbol": "STYLEBAAZA",
@@ -8615,12 +9066,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 83.6,
+   "rs_pct": 83.8,
    "atr_ext_above_sma50": 0.28,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-18"
+   "earnings_date": "2026-05-18",
+   "rs_excess_pct": 28.18
   },
   {
    "symbol": "SUDARSCHEM",
@@ -8634,12 +9086,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 71.1,
+   "rs_pct": 71.9,
    "atr_ext_above_sma50": -0.81,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": 16.01
   },
   {
    "symbol": "SUMICHEM",
@@ -8653,12 +9106,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 11.3,
+   "rs_pct": 13.8,
    "atr_ext_above_sma50": -5.18,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-27"
+   "earnings_date": "2026-07-27",
+   "rs_excess_pct": -16.58
   },
   {
    "symbol": "SUNFLAG",
@@ -8672,12 +9126,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 87.4,
+   "rs_pct": 87.5,
    "atr_ext_above_sma50": 3.13,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-12"
+   "earnings_date": "2018-11-12",
+   "rs_excess_pct": 33.05
   },
   {
    "symbol": "SUNTECK",
@@ -8691,12 +9146,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 21.5,
+   "rs_pct": 22.3,
    "atr_ext_above_sma50": -2.81,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-21"
+   "earnings_date": "2026-07-21",
+   "rs_excess_pct": -11.7
   },
   {
    "symbol": "SUNTV",
@@ -8710,12 +9166,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "flat 30w SMA",
-   "rs_pct": 86.8,
+   "rs_pct": 86.0,
    "atr_ext_above_sma50": 4.97,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-13"
+   "earnings_date": "2026-11-13",
+   "rs_excess_pct": 31.03
   },
   {
    "symbol": "SUPRAJIT",
@@ -8729,12 +9186,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 38.3,
+   "rs_pct": 38.1,
    "atr_ext_above_sma50": -2.45,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": -3.54
   },
   {
    "symbol": "SUPREMEIND",
@@ -8748,12 +9206,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 62.5,
+   "rs_pct": 62.3,
    "atr_ext_above_sma50": 0.02,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-26"
+   "earnings_date": "2026-10-26",
+   "rs_excess_pct": 9.6
   },
   {
    "symbol": "SUPRIYA",
@@ -8767,12 +9226,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 61.7,
+   "rs_pct": 61.3,
    "atr_ext_above_sma50": 0.17,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": 8.84
   },
   {
    "symbol": "SURAJEST",
@@ -8786,12 +9246,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 50.0,
+   "rs_pct": 49.8,
    "atr_ext_above_sma50": 0.43,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 2.38
   },
   {
    "symbol": "SURYODAY",
@@ -8805,12 +9266,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 9.4,
+   "rs_pct": 9.6,
    "atr_ext_above_sma50": -1.16,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -19.09
   },
   {
    "symbol": "SUVEN",
@@ -8824,12 +9286,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 13.6,
+   "rs_pct": 13.4,
    "atr_ext_above_sma50": -3.75,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-02-14"
+   "earnings_date": "2020-02-14",
+   "rs_excess_pct": -16.65
   },
   {
    "symbol": "SWANCORP",
@@ -8843,12 +9306,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 19.2,
+   "rs_pct": 21.9,
    "atr_ext_above_sma50": -2.62,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2013-05-04"
+   "earnings_date": "2013-05-04",
+   "rs_excess_pct": -12.1
   },
   {
    "symbol": "SWIGGY",
@@ -8867,7 +9331,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": -8.45
   },
   {
    "symbol": "TALBROAUTO",
@@ -8881,12 +9346,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 49.6,
+   "rs_pct": 49.2,
    "atr_ext_above_sma50": -1.51,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-05-29"
+   "earnings_date": "2019-05-29",
+   "rs_excess_pct": 2.34
   },
   {
    "symbol": "TARC",
@@ -8900,12 +9366,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 50.9,
+   "rs_pct": 50.8,
    "atr_ext_above_sma50": -1.04,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": 2.92
   },
   {
    "symbol": "TARIL",
@@ -8924,7 +9391,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2017-05-05"
+   "earnings_date": "2017-05-05",
+   "rs_excess_pct": -8.03
   },
   {
    "symbol": "TATAINVEST",
@@ -8943,7 +9411,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -5.03
   },
   {
    "symbol": "TATATECH",
@@ -8957,12 +9426,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 49.2,
+   "rs_pct": 48.3,
    "atr_ext_above_sma50": -1.24,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-17"
+   "earnings_date": "2026-07-17",
+   "rs_excess_pct": 2.19
   },
   {
    "symbol": "TATVA",
@@ -8976,12 +9446,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 89.8,
+   "rs_pct": 90.0,
    "atr_ext_above_sma50": 1.34,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-17"
+   "earnings_date": "2026-07-17",
+   "rs_excess_pct": 36.77
   },
   {
    "symbol": "TBOTEK",
@@ -8995,12 +9466,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 70.0,
+   "rs_pct": 69.4,
    "atr_ext_above_sma50": -0.38,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": 14.12
   },
   {
    "symbol": "TCS",
@@ -9014,12 +9486,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 60.6,
+   "rs_pct": 60.4,
    "atr_ext_above_sma50": 0.28,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2027-01-11"
+   "earnings_date": "2027-01-11",
+   "rs_excess_pct": 8.46
   },
   {
    "symbol": "TECHNOE",
@@ -9033,12 +9506,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 32.6,
+   "rs_pct": 32.5,
    "atr_ext_above_sma50": -1.43,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2021-08-13"
+   "earnings_date": "2021-08-13",
+   "rs_excess_pct": -6.33
   },
   {
    "symbol": "TEGA",
@@ -9052,12 +9526,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 77.2,
+   "rs_pct": 72.6,
    "atr_ext_above_sma50": 2.13,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": 16.5
   },
   {
    "symbol": "TEJASNET",
@@ -9071,12 +9546,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 20.9,
+   "rs_pct": 21.1,
    "atr_ext_above_sma50": -2.85,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-16"
+   "earnings_date": "2026-10-16",
+   "rs_excess_pct": -12.31
   },
   {
    "symbol": "TEMBO",
@@ -9090,12 +9566,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 53.6,
+   "rs_pct": 56.0,
    "atr_ext_above_sma50": -1.18,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 5.62
   },
   {
    "symbol": "TENNIND",
@@ -9109,12 +9586,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 14.9,
+   "rs_pct": 15.7,
    "atr_ext_above_sma50": -3.99,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-05"
+   "earnings_date": "2026-08-05",
+   "rs_excess_pct": -15.78
   },
   {
    "symbol": "TEXRAIL",
@@ -9128,12 +9606,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 44.7,
+   "rs_pct": 42.1,
    "atr_ext_above_sma50": -0.11,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-05-13"
+   "earnings_date": "2019-05-13",
+   "rs_excess_pct": -0.94
   },
   {
    "symbol": "TFCILTD",
@@ -9152,7 +9631,8 @@
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-01-31"
+   "earnings_date": "2020-01-31",
+   "rs_excess_pct": 100.81
   },
   {
    "symbol": "THELEELA",
@@ -9171,7 +9651,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": 24.4
   },
   {
    "symbol": "THERMAX",
@@ -9185,12 +9666,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 4.0,
+   "rs_pct": 4.2,
    "atr_ext_above_sma50": -3.73,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-11"
+   "earnings_date": "2026-11-11",
+   "rs_excess_pct": -23.92
   },
   {
    "symbol": "THOMASCOOK",
@@ -9204,12 +9686,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 45.7,
+   "rs_pct": 45.3,
    "atr_ext_above_sma50": -1.5,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-11-12"
+   "earnings_date": "2025-11-12",
+   "rs_excess_pct": 0.62
   },
   {
    "symbol": "THYROCARE",
@@ -9223,12 +9706,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 49.4,
+   "rs_pct": 49.1,
    "atr_ext_above_sma50": -4.32,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": 2.34
   },
   {
    "symbol": "TIMETECHNO",
@@ -9242,12 +9726,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 44.5,
+   "rs_pct": 44.3,
    "atr_ext_above_sma50": -1.55,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-02-13"
+   "earnings_date": "2020-02-13",
+   "rs_excess_pct": 0.36
   },
   {
    "symbol": "TIPSMUSIC",
@@ -9261,12 +9746,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 52.5,
+   "rs_pct": 52.1,
    "atr_ext_above_sma50": 2.11,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-22"
+   "earnings_date": "2026-07-22",
+   "rs_excess_pct": 3.48
   },
   {
    "symbol": "TMB",
@@ -9280,12 +9766,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 68.9,
+   "rs_pct": 70.2,
    "atr_ext_above_sma50": -0.34,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 14.76
   },
   {
    "symbol": "TNPETRO",
@@ -9299,12 +9786,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 77.9,
+   "rs_pct": 78.1,
    "atr_ext_above_sma50": -0.62,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-08-10"
+   "earnings_date": "2018-08-10",
+   "rs_excess_pct": 21.94
   },
   {
    "symbol": "TRANSRAILL",
@@ -9318,12 +9806,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 36.6,
+   "rs_pct": 36.2,
    "atr_ext_above_sma50": 0.3,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -4.4
   },
   {
    "symbol": "TRITURBINE",
@@ -9337,12 +9826,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 24.0,
+   "rs_pct": 24.2,
    "atr_ext_above_sma50": -2.81,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-10"
+   "earnings_date": "2026-08-10",
+   "rs_excess_pct": -10.74
   },
   {
    "symbol": "TSFINV",
@@ -9356,12 +9846,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 22.1,
+   "rs_pct": 22.5,
    "atr_ext_above_sma50": -1.68,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -11.69
   },
   {
    "symbol": "TTML",
@@ -9375,12 +9866,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 18.7,
+   "rs_pct": 17.4,
    "atr_ext_above_sma50": -2.55,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -14.56
   },
   {
    "symbol": "TVSSCS",
@@ -9394,12 +9886,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 36.8,
+   "rs_pct": 36.4,
    "atr_ext_above_sma50": -0.69,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-05-25"
+   "earnings_date": "2026-05-25",
+   "rs_excess_pct": -4.35
   },
   {
    "symbol": "UFLEX",
@@ -9413,12 +9906,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 92.5,
+   "rs_pct": 92.3,
    "atr_ext_above_sma50": 0.7,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-11-11"
+   "earnings_date": "2020-11-11",
+   "rs_excess_pct": 43.04
   },
   {
    "symbol": "UJJIVANSFB",
@@ -9432,12 +9926,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 48.3,
+   "rs_pct": 47.5,
    "atr_ext_above_sma50": -0.83,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-23"
+   "earnings_date": "2026-07-23",
+   "rs_excess_pct": 2.01
   },
   {
    "symbol": "ULTRAMAR",
@@ -9456,7 +9951,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 3.71
   },
   {
    "symbol": "UNIECOM",
@@ -9470,12 +9966,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 43.2,
+   "rs_pct": 43.4,
    "atr_ext_above_sma50": -0.26,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2025-05-05"
+   "earnings_date": "2025-05-05",
+   "rs_excess_pct": -0.2
   },
   {
    "symbol": "UNIMECH",
@@ -9489,12 +9986,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 96.0,
+   "rs_pct": 96.2,
    "atr_ext_above_sma50": 3.23,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 60.6
   },
   {
    "symbol": "UNIPARTS",
@@ -9508,12 +10006,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 71.9,
+   "rs_pct": 71.3,
    "atr_ext_above_sma50": -1.87,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 15.32
   },
   {
    "symbol": "UNIVCABLES",
@@ -9527,12 +10026,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 88.1,
+   "rs_pct": 88.5,
    "atr_ext_above_sma50": -0.48,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2020-06-01"
+   "earnings_date": "2020-06-01",
+   "rs_excess_pct": 34.17
   },
   {
    "symbol": "UNOMINDA",
@@ -9546,12 +10046,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 45.8,
+   "rs_pct": 45.5,
    "atr_ext_above_sma50": -3.36,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-11-05"
+   "earnings_date": "2026-11-05",
+   "rs_excess_pct": 0.76
   },
   {
    "symbol": "URBANCO",
@@ -9570,7 +10071,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-31"
+   "earnings_date": "2026-07-31",
+   "rs_excess_pct": 27.1
   },
   {
    "symbol": "UTLSOLAR",
@@ -9584,12 +10086,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 55.1,
+   "rs_pct": 55.3,
    "atr_ext_above_sma50": -1.07,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-13"
+   "earnings_date": "2026-08-13",
+   "rs_excess_pct": 4.83
   },
   {
    "symbol": "UTTAMSUGAR",
@@ -9603,12 +10106,13 @@
    "substage": "2B",
    "steve_extended": false,
    "notes": "20d high breakout",
-   "rs_pct": 96.6,
+   "rs_pct": 94.3,
    "atr_ext_above_sma50": 4.27,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 47.52
   },
   {
    "symbol": "VAIBHAVGBL",
@@ -9622,12 +10126,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 15.3,
+   "rs_pct": 16.0,
    "atr_ext_above_sma50": -2.29,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2022-08-02"
+   "earnings_date": "2022-08-02",
+   "rs_excess_pct": -15.73
   },
   {
    "symbol": "VALIANTORG",
@@ -9641,12 +10146,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 97.0,
+   "rs_pct": 96.8,
    "atr_ext_above_sma50": 3.31,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 67.88
   },
   {
    "symbol": "VASCONEQ",
@@ -9660,12 +10166,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 42.1,
+   "rs_pct": 41.7,
    "atr_ext_above_sma50": -0.62,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -1.0
   },
   {
    "symbol": "VIJAYA",
@@ -9679,12 +10186,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 56.2,
+   "rs_pct": 56.4,
    "atr_ext_above_sma50": -1.17,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-06"
+   "earnings_date": "2026-08-06",
+   "rs_excess_pct": 5.71
   },
   {
    "symbol": "VIKRAN",
@@ -9698,12 +10206,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 21.7,
+   "rs_pct": 22.1,
    "atr_ext_above_sma50": 0.52,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -11.99
   },
   {
    "symbol": "VIMTALABS",
@@ -9717,12 +10226,13 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 44.2,
+   "rs_pct": 44.0,
    "atr_ext_above_sma50": -3.61,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2018-11-09"
+   "earnings_date": "2018-11-09",
+   "rs_excess_pct": -0.01
   },
   {
    "symbol": "VINCOFE",
@@ -9736,12 +10246,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 62.3,
+   "rs_pct": 62.1,
    "atr_ext_above_sma50": 0.72,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 9.47
   },
   {
    "symbol": "VIPIND",
@@ -9760,7 +10271,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-12"
+   "earnings_date": "2026-08-12",
+   "rs_excess_pct": -5.24
   },
   {
    "symbol": "VIYASH",
@@ -9779,7 +10291,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-11"
+   "earnings_date": "2026-08-11",
+   "rs_excess_pct": -12.91
   },
   {
    "symbol": "VMART",
@@ -9798,7 +10311,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-24"
+   "earnings_date": "2026-07-24",
+   "rs_excess_pct": 10.76
   },
   {
    "symbol": "VOEPL",
@@ -9812,12 +10326,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 75.7,
+   "rs_pct": 76.0,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 19.64
   },
   {
    "symbol": "VOGL",
@@ -9831,12 +10346,13 @@
    "substage": "UNCLASSIFIED",
    "steve_extended": false,
    "notes": "insufficient history",
-   "rs_pct": 11.9,
+   "rs_pct": 12.3,
    "atr_ext_above_sma50": null,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -16.98
   },
   {
    "symbol": "VTL",
@@ -9850,12 +10366,13 @@
    "substage": "1A",
    "steve_extended": false,
    "notes": "ignored pivot",
-   "rs_pct": 15.7,
+   "rs_pct": 18.9,
    "atr_ext_above_sma50": -2.97,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": -13.7
   },
   {
    "symbol": "WABAG",
@@ -9874,7 +10391,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2022-08-10"
+   "earnings_date": "2022-08-10",
+   "rs_excess_pct": -6.21
   },
   {
    "symbol": "WAKEFIT",
@@ -9888,12 +10406,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 55.8,
+   "rs_pct": 55.7,
    "atr_ext_above_sma50": -0.86,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": 5.46
   },
   {
    "symbol": "WANBURY",
@@ -9907,12 +10426,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 1.5,
+   "rs_pct": 1.9,
    "atr_ext_above_sma50": -4.08,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -30.94
   },
   {
    "symbol": "WEBELSOLAR",
@@ -9931,7 +10451,8 @@
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -29.55
   },
   {
    "symbol": "WELCORP",
@@ -9950,7 +10471,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-24"
+   "earnings_date": "2026-07-24",
+   "rs_excess_pct": 72.96
   },
   {
    "symbol": "WESTLIFE",
@@ -9964,12 +10486,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 79.6,
+   "rs_pct": 80.0,
    "atr_ext_above_sma50": 1.09,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-30"
+   "earnings_date": "2026-07-30",
+   "rs_excess_pct": 23.68
   },
   {
    "symbol": "WEWORK",
@@ -9983,12 +10506,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 37.4,
+   "rs_pct": 37.0,
    "atr_ext_above_sma50": -0.36,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-16"
+   "earnings_date": "2026-07-16",
+   "rs_excess_pct": -4.13
   },
   {
    "symbol": "WHEELS",
@@ -10002,12 +10526,13 @@
    "substage": "2A",
    "steve_extended": false,
    "notes": "bullish trend",
-   "rs_pct": 96.2,
+   "rs_pct": 96.4,
    "atr_ext_above_sma50": 3.89,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2019-08-12"
+   "earnings_date": "2019-08-12",
+   "rs_excess_pct": 60.6
   },
   {
    "symbol": "YATHARTH",
@@ -10021,12 +10546,13 @@
    "substage": "3A",
    "steve_extended": false,
    "notes": "bullish fade (below 10w EMA)",
-   "rs_pct": 77.5,
+   "rs_pct": 79.1,
    "atr_ext_above_sma50": 0.41,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2024-05-23"
+   "earnings_date": "2024-05-23",
+   "rs_excess_pct": 22.59
   },
   {
    "symbol": "ZAGGLE",
@@ -10040,12 +10566,13 @@
    "substage": "4B",
    "steve_extended": false,
    "notes": "20d low breakdown",
-   "rs_pct": 9.8,
+   "rs_pct": 10.2,
    "atr_ext_above_sma50": -2.93,
    "new_20d_high": false,
    "new_20d_low": true,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-14"
+   "earnings_date": "2026-08-14",
+   "rs_excess_pct": -18.56
   },
   {
    "symbol": "ZEEL",
@@ -10059,12 +10586,13 @@
    "substage": "4C",
    "steve_extended": false,
    "notes": "extended bearish",
-   "rs_pct": 5.5,
+   "rs_pct": 6.2,
    "atr_ext_above_sma50": -4.29,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-10-19"
+   "earnings_date": "2026-10-19",
+   "rs_excess_pct": -21.85
   },
   {
    "symbol": "ZENSARTECH",
@@ -10078,12 +10606,13 @@
    "substage": "4A",
    "steve_extended": false,
    "notes": "bearish trend",
-   "rs_pct": 31.5,
+   "rs_pct": 23.4,
    "atr_ext_above_sma50": 0.88,
    "new_20d_high": true,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-07-29"
+   "earnings_date": "2026-07-29",
+   "rs_excess_pct": -11.07
   },
   {
    "symbol": "ZENTEC",
@@ -10102,7 +10631,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -5.31
   },
   {
    "symbol": "ZOTA",
@@ -10121,7 +10651,8 @@
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": null
+   "earnings_date": null,
+   "rs_excess_pct": -5.03
   },
   {
    "symbol": "ZYDUSWELL",
@@ -10135,12 +10666,14 @@
    "substage": "1B",
    "steve_extended": false,
    "notes": "mean reversion",
-   "rs_pct": 23.0,
+   "rs_pct": 23.2,
    "atr_ext_above_sma50": -1.42,
    "new_20d_high": false,
    "new_20d_low": false,
    "last_date": "2026-10-13",
-   "earnings_date": "2026-08-04"
+   "earnings_date": "2026-08-04",
+   "rs_excess_pct": -11.29
   }
- ]
+ ],
+ "rs_benchmark": "Nifty MidSmallcap 400"
 }

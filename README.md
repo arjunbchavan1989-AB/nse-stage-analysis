@@ -38,8 +38,19 @@ Weinstein's Stage Analysis.
 
 Additional Steve Jacobs badge: "Extended" — ≥7 ATR above SMA50 (separate from 2C).
 
-RS score = 63-session return minus NIFTY 50 return, percentile-ranked within the
+RS score = 63-session return minus NIFTY MidSmallcap 400 return, aligned on common
+trading dates and percentile-ranked within the
 final universe (shown as circular badge 0–100).
+
+Benchmark closes come from the exact Nifty MidSmallcap 400 price-index row in
+NSE's daily index archive, not an ETF or the 50:50 variant. If sufficient current
+benchmark history is unavailable, the pipeline fails rather than substituting an
+unrelated index. The small benchmark CSV is persisted in `pipeline/data/`.
+
+Each stage column has a `Copy TV` button. It copies the symbols currently visible
+in that column, deduplicated and comma-separated as `NSE:SYMBOL`. Paste the copied
+text into TradingView's Add symbols dialog; the dashboard cannot paste into another
+browser tab automatically. Empty columns have a disabled button.
 
 ## Set up on your own GitHub account (one-time)
 

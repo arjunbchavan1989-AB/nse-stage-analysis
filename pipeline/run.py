@@ -98,7 +98,7 @@ MIN_AVG_DAILY_RANGE_PCT = 3.0     # 20-day average daily range % > 3% (user filt
 
 CRORE = 1e7
 
-BENCHMARK = "^NSEI"  # NIFTY 50
+BENCHMARK = "Nifty MidSmallcap 400"
 
 
 def compute_atr(df: pd.DataFrame, period: int = ATR_PERIOD) -> pd.Series:
@@ -298,15 +298,64 @@ def classify_stage(daily: pd.DataFrame, weekly: pd.DataFrame) -> dict:
 
 
 def rs_percentile(stock_daily: pd.DataFrame, benchmark_daily: pd.DataFrame) -> float | None:
-    """63-session RS percentile: (stock 63d return − NIFTY 63d return), then percentile
+    """63-session RS: stock return minus NIFTY MidSmallcap 400 return, then percentile
     rank within the full filtered universe.
     """
-    if len(stock_daily) < RS_LOOKBACK + 1 or len(benchmark_daily) < RS_LOOKBACK + 1:
+    aligned = pd.concat(
+        [stock_daily["close"].rename("stock"), benchmark_daily["close"].rename("benchmark")],
+        axis=1, join="inner",
+    ).dropna().sort_index()
+    if len(aligned) < RS_LOOKBACK + 1:
         return None
-    s = stock_daily["close"].iloc[-1] / stock_daily["close"].iloc[-(RS_LOOKBACK + 1)] - 1
-    b = benchmark_daily["close"].iloc[-1] / benchmark_daily["close"].iloc[-(RS_LOOKBACK + 1)] - 1
+    s = aligned["stock"].iloc[-1] / aligned["stock"].iloc[-(RS_LOOKBACK + 1)] - 1
+    b = aligned["benchmark"].iloc[-1] / aligned["benchmark"].iloc[-(RS_LOOKBACK + 1)] - 1
     return float(s - b)
 
+
+def load_benchmark(as_of: str) -> pd.DataFrame:
+    """Exact NSE price index; never substitute NIFTY 50 or an ETF.
+
+    Persist the small benchmark history in the repository. Fetch missing archive
+    dates concurrently; validate the date embedded in each response.
+    """
+    from concurrent.futures import ThreadPoolExecutor
+    from io import BytesIO
+    from urllib.request import Request, urlopen
+    path = DATA_DIR / "benchmark_midsmall400.csv"
+    history = pd.read_csv(path, parse_dates=["date"]).set_index("date") if path.exists() else pd.DataFrame(columns=["close"])
+    end = pd.Timestamp(as_of).normalize()
+    candidates = pd.bdate_range(end - pd.Timedelta(days=140), end)
+    missing = [d for d in candidates if d not in history.index]
+
+    def fetch_day(day):
+        url = f"https://archives.nseindia.com/content/indices/ind_close_all_{day:%d%m%Y}.csv"
+        try:
+            request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(request, timeout=20) as response:
+                frame = pd.read_csv(BytesIO(response.read()))
+            frame.columns = frame.columns.str.strip()
+            row = frame[frame["Index Name"].str.strip().str.casefold() == BENCHMARK.casefold()]
+            if len(row) != 1:
+                return None
+            actual = pd.to_datetime(row.iloc[0]["Index Date"], dayfirst=True).normalize()
+            value = float(row.iloc[0]["Closing Index Value"])
+            if actual != day or value <= 0:
+                return None
+            return {"date": day, "close": value}
+        except Exception as exc:
+            logger.debug("Index archive unavailable for %s: %s", day.date(), exc)
+            return None
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        new = [row for row in pool.map(fetch_day, missing) if row is not None]
+    if new:
+        history = pd.concat([history, pd.DataFrame(new).set_index("date")])
+    history = history[~history.index.duplicated(keep="last")].sort_index()
+    history = history.loc[history.index <= end]
+    if len(history) < RS_LOOKBACK + 1 or history.index[-1] != end:
+        raise RuntimeError(f"{BENCHMARK} history incomplete or stale for {as_of}; refusing a substitute benchmark")
+    history.rename_axis("date").to_csv(path)
+    return history
 
 def get_nse_universe() -> pd.DataFrame:
     """Load the official NSE EQUITY_L.csv universe (EQ series only, exclude ETFs/REITs/InvITs)."""
@@ -399,18 +448,7 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
     data = pd.read_pickle(cache_path)
     logger.info(f"Loaded OHLCV: {data.shape}")
 
-    # Benchmark (NIFTY 50)
-    bench_cache = CACHE_DIR / f"bench_{today}.pkl"
-    if not skip_download and not bench_cache.exists():
-        bench = yf.download(BENCHMARK, period="15mo", interval="1d", auto_adjust=False, progress=False)
-        if isinstance(bench.columns, pd.MultiIndex):
-            bench.columns = bench.columns.get_level_values(0)
-        bench.to_pickle(bench_cache)
-    else:
-        bench = pd.read_pickle(bench_cache)
-
-    bench.index.name = "date"
-    bench.columns = [c.lower() for c in bench.columns]
+    bench = load_benchmark(str(data.index.max().date()))
 
     # Build per-symbol frames
     rows = []
@@ -568,6 +606,7 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
                 "steve_extended": classification["steve_extended"],
                 "notes": classification["notes"],
                 "rs_pct": round(rs_pct, 1) if rs_pct is not None else None,
+                "rs_excess_pct": round(rs_r * 100, 2) if rs_r is not None else None,
                 "atr_ext_above_sma50": round(classification["flags"]["atr_ext_above_sma50"], 2)
                 if classification["flags"]["atr_ext_above_sma50"] is not None
                 else None,
@@ -627,6 +666,7 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
 
     payload = {
         "generated_at": datetime.now().isoformat(),
+        "rs_benchmark": BENCHMARK,
         "last_trading_date": out_rows[0]["last_date"] if out_rows else None,
         "universe": {
             "nse_eq_total": int(len(symbols)),
