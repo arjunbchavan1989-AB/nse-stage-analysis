@@ -3,15 +3,14 @@ name: Daily Update Stage Analysis Dashboard
 on:
   schedule:
     # 7:30 PM IST (13:30 UTC) — after NSE close, EOD data available
-    # NOTE: GitHub cron is UTC. 13:30 UTC = 19:00 IST. 19:00 IST is after NSE close (15:30 IST).
     - cron: '30 13 * * 1-5'
   workflow_dispatch:  # allow manual run
   push:
     branches:
       - main
     paths:
-      - 'dashboard/pipeline/**'
-      - 'dashboard/web/**'
+      - 'pipeline/**'
+      - 'web/**'
       - '.github/workflows/daily-update.yml'
 
 permissions:
@@ -37,18 +36,16 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
-          cache-dependency-path: dashboard/pipeline/requirements.txt
+          cache-dependency-path: pipeline/requirements.txt
 
       - name: Install dependencies
         run: |
-          pip install --quiet -r dashboard/pipeline/requirements.txt
+          pip install --quiet -r pipeline/requirements.txt
 
       - name: Run pipeline (fetch + classify)
         run: |
-          cd dashboard/pipeline
+          cd pipeline
           python run.py 2>&1 | tee /tmp/pipeline.log
-          echo "PIPELINE_EXIT=$?" >> $GITHUB_ENV
-          # Fail if latest.json was not written
           if [ ! -f data/latest.json ]; then
             echo "Pipeline failed — no latest.json produced"
             exit 1
@@ -56,20 +53,16 @@ jobs:
 
       - name: Copy data to web dashboard
         run: |
-          mkdir -p dashboard/web/data
-          cp dashboard/pipeline/data/latest.json dashboard/web/data/latest.json
-          # also copy a dated snapshot for history
-          mkdir -p dashboard/web/data/history
-          cp dashboard/pipeline/data/latest.json \
-             "dashboard/web/data/history/latest_$(date -u '+%Y-%m-%d').json"
+          mkdir -p web/data
+          cp pipeline/data/latest.json web/data/latest.json
+          mkdir -p web/data/history
+          cp pipeline/data/latest.json "web/data/history/latest_$(date -u '+%Y-%m-%d').json"
 
       - name: Commit updated data to main
         run: |
           git config user.name "stage-analysis-bot"
           git config user.email "actions@github.com"
-          git add dashboard/web/data/latest.json \
-                 dashboard/web/data/history/ \
-                 dashboard/pipeline/data/snapshots/ 2>/dev/null || true
+          git add web/data/latest.json web/data/history/ pipeline/data/snapshots/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No data changes to commit"
           else
@@ -83,14 +76,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./dashboard/web
+          publish_dir: ./web
           force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Verify deployed site (best-effort)
-        if: ${{ github.ref == 'refs/heads/main' }}
-        run: |
-          sleep 30
-          echo "Site deploy initiated to gh-pages branch"
-          echo "Enable Pages at: Settings → Pages → Build and deployment → Source: gh-pages"
