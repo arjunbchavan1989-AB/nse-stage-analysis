@@ -1,0 +1,16 @@
+# Pipeline cache (regenerated daily by GitHub Actions — don't commit)
+pipeline/cache/
+pipeline/data/snapshots/
+
+# Large raw universe CSV (re-downloaded daily)
+pipeline/equity_l.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
