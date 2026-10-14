@@ -68,10 +68,12 @@ import sys
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
 import yfinance as yf
+from session_health import validate_session
 
 logger = logging.getLogger(__name__)
 
@@ -357,6 +359,31 @@ def load_benchmark(as_of: str) -> pd.DataFrame:
     history.rename_axis("date").to_csv(path)
     return history
 
+
+def latest_exchange_session(completed):
+    """Use dated NSE index archives to identify the latest confirmed EOD.
+
+    No weekend/holiday bar is invented. If today's archive is temporarily absent
+    but stocks already have today's bar, the mismatch below fails safely.
+    """
+    from io import BytesIO
+    from urllib.request import Request, urlopen
+    for offset in range(5):
+        day = completed - timedelta(days=offset)
+        url = f"https://archives.nseindia.com/content/indices/ind_close_all_{day:%d%m%Y}.csv"
+        try:
+            with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as response:
+                frame = pd.read_csv(BytesIO(response.read()))
+            frame.columns = frame.columns.str.strip()
+            row = frame[frame["Index Name"].str.strip().str.casefold() == BENCHMARK.casefold()]
+            if (len(row) == 1
+                    and pd.to_datetime(row.iloc[0]["Index Date"], dayfirst=True).date() == day
+                    and float(row.iloc[0]["Closing Index Value"]) > 0):
+                return day
+        except Exception as exc:
+            logger.debug("Completed index session unavailable for %s: %s", day, exc)
+    raise RuntimeError("Unable to verify a completed NSE index session; retaining last good output")
+
 def get_nse_universe() -> pd.DataFrame:
     """Load the official NSE EQUITY_L.csv universe (EQ series only, exclude ETFs/REITs/InvITs)."""
     csv_path = HERE / "equity_l.csv"
@@ -396,8 +423,8 @@ def _download_with_retries(symbols: list[str], max_retries: int = 4) -> pd.DataF
             if merged is None:
                 merged = data
             else:
-                merged = pd.concat([merged, data], axis=1)
-                merged = merged.loc[:, ~merged.columns.duplicated()]
+                # Retried tickers must replace the first attempt's NaN columns.
+                merged = data.combine_first(merged)
             # Identify failed tickers (all-NaN or missing)
             failed = []
             for t in symbols_to_do:
@@ -432,23 +459,28 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
     yf_symbols = [f"{s}.NS" for s in symbols]
 
     # Cache key by date
-    today = datetime.now().strftime("%Y-%m-%d")
+    now = datetime.now(ZoneInfo("Asia/Kolkata"))
+    today = now.strftime("%Y-%m-%d")
+    completed = now.date() if now.hour >= 19 else now.date() - timedelta(days=1)
     cache_path = CACHE_DIR / f"ohlcv_{today}.pkl"
-    if not skip_download and not cache_path.exists():
+    # A same-date cache can contain intraday or yesterday's prices. Refresh by
+    # default; cache reuse is an explicit local-testing option only.
+    if not skip_download:
         logger.info("Downloading OHLCV (this may take several minutes, with retries on rate limit)...")
         data = _download_with_retries(yf_symbols)
         if data is None or data.empty:
-            logger.error("OHLCV download failed — keeping last good snapshot")
-            return
+            raise RuntimeError("OHLCV download failed; keeping last good snapshot")
         data.index.name = "date"
         data.to_pickle(cache_path)
     else:
         logger.info("Using cached OHLCV")
 
     data = pd.read_pickle(cache_path)
+    data.index = pd.to_datetime(data.index).tz_localize(None).normalize()
+    data = data.loc[data.index.date <= completed]
+    if data.empty:
+        raise RuntimeError("No completed-session prices; keeping last good snapshot")
     logger.info(f"Loaded OHLCV: {data.shape}")
-
-    bench = load_benchmark(str(data.index.max().date()))
 
     # Build per-symbol frames
     rows = []
@@ -476,6 +508,13 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
             continue
 
     logger.info(f"Parsed {len(rows)} symbols with valid data ({errors} skipped)")
+
+    session, rows, session_coverage = validate_session(rows, completed)
+    exchange_session = latest_exchange_session(completed)
+    if session.date() != exchange_session:
+        raise RuntimeError(f"Stock EOD {session.date()} differs from NSE-confirmed "
+                           f"EOD {exchange_session}; refusing stale/mixed publication")
+    bench = load_benchmark(str(session.date()))
 
     if dry_run:
         logger.info("Dry run complete — no JSON written")
@@ -563,6 +602,8 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
         passed_final.append((sym, df, avg_vol, avg_rvol, mcap_inr, avg_range_pct))
 
     logger.info(f"Final universe (mcap + liquidity): {len(passed_final)} symbols")
+    if not passed_final:
+        raise RuntimeError("Empty eligible universe; keeping last good snapshot")
 
     # RS scores for all symbols in final universe
     rs_raw = []
@@ -665,9 +706,11 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
     unclassified = sum(1 for r in out_rows if r["substage"] == "UNCLASSIFIED")
 
     payload = {
-        "generated_at": datetime.now().isoformat(),
+        "generated_at": datetime.now(ZoneInfo("Asia/Kolkata")).isoformat(),
+        "refresh_batch": os.environ.get("REFRESH_NOT_BEFORE"),
         "rs_benchmark": BENCHMARK,
-        "last_trading_date": out_rows[0]["last_date"] if out_rows else None,
+        "last_trading_date": str(session.date()),
+        "coverage_pct": round(session_coverage, 2),
         "universe": {
             "nse_eq_total": int(len(symbols)),
             "liquidity_passed": len(passed_liquidity),
@@ -691,8 +734,12 @@ def run_pipeline(limit: int | None = None, skip_download: bool = False, dry_run:
         "rows": out_rows,
     }
 
+    if not out_rows or any(row["last_date"] != str(session.date()) for row in out_rows):
+        raise RuntimeError("Empty or mixed-session publication; retaining last good output")
     out_path = DATA_DIR / "latest.json"
-    out_path.write_text(json.dumps(payload, indent=1))
+    temporary = out_path.with_suffix(".tmp")
+    temporary.write_text(json.dumps(payload, indent=1, allow_nan=False))
+    temporary.replace(out_path)
     logger.info(f"Wrote {out_path} ({len(out_rows)} rows, {time.time()-t0:.0f}s)")
 
     # Also write historical snapshot for trend

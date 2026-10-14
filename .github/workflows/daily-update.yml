@@ -2,8 +2,8 @@ name: Daily Update Stage Analysis Dashboard
 
 on:
   schedule:
-    # 7:30 PM IST (13:30 UTC) — after NSE close, EOD data available
-    - cron: '30 13 * * 1-5'
+    # 19:30 IST = 14:00 UTC. Downstream dashboards wait for this batch.
+    - cron: '0 14 * * 1-5'
   workflow_dispatch:  # allow manual run
   push:
     branches:
@@ -23,7 +23,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 75
 
     steps:
       - name: Checkout repo (full history)
@@ -44,7 +44,10 @@ jobs:
 
       - name: Run pipeline (fetch + classify)
         run: |
+          set -euo pipefail
+          export REFRESH_NOT_BEFORE="$(date -u '+%Y-%m-%dT14:00:00+00:00')"
           cd pipeline
+          python -m unittest discover -s ../tests -v
           python run.py 2>&1 | tee /tmp/pipeline.log
           if [ ! -f data/latest.json ]; then
             echo "Pipeline failed — no latest.json produced"
@@ -67,7 +70,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes to commit"
           else
-            git commit -m "Update stage analysis data $(date -u '+%Y-%m-%d')"
+            git commit -m "Update stage analysis data $(date -u '+%Y-%m-%d') [skip ci]"
             git push
           fi
 

@@ -84,7 +84,7 @@ browser tab automatically. Empty columns have a disabled button.
 5. **Verify the daily cron works**:
    - Go to **Actions → Daily Update Stage Analysis Dashboard → Run workflow** and click "Run workflow" to trigger a manual run now.
    - After it succeeds, visit `https://<your-username>.github.io/nse-stage-analysis/` to see the live dashboard.
-   - The workflow runs automatically every weekday at **7:30 PM IST** (13:30 UTC) after NSE close.
+   - The workflow is scheduled every weekday at **7:30 PM IST** (14:00 UTC) after NSE close.
 
 6. **(Optional) View historical snapshots**: `dashboard/web/data/history/` stores one JSON per day for trend/backtest use.
 
@@ -101,14 +101,23 @@ Then serve the `dashboard/web/` folder statically (e.g. `python -m http.server`)
 
 ## How the daily auto-update works
 
-1. GitHub Actions cron fires at 13:30 UTC (7:30 PM IST) every weekday.
+1. GitHub Actions is scheduled at 14:00 UTC (7:30 PM IST) every weekday. This is the requested start time, not a guaranteed completion time; GitHub may delay scheduled jobs.
 2. The pipeline fetches the NSE universe, applies the 4 filters, classifies all stocks, writes `latest.json`.
 3. The workflow copies it to `dashboard/web/data/`, commits it to `main`, and pushes `dashboard/web/` to the `gh-pages` branch.
 4. GitHub Pages serves `gh-pages` at your public URL — refreshed daily, no server needed.
+5. Kell and EP are also scheduled at 19:30 IST, but wait for this evening's upstream batch in public GitHub `main`: Stage → Kell → EP. All three publish the same completed price session. No cross-repository dispatch token is required.
+
+On weekends/holidays the last actual completed session remains the EOD date.
+Snapshots include a timezone-aware generation timestamp and `refresh_batch`.
+Missing prices, under-95% same-session coverage, or disagreement with the dated NSE
+index archive stop publication. The last good live dashboard remains available,
+but the failed workflow is red rather than falsely marking old data as updated.
+If refreshing manually, run Stage first, then Kell and EP; their waiting steps
+can also be started while Stage runs. UI-only downstream redeploys bypass waiting.
 
 ## Limitations / Assumptions
 
-- Yahoo Finance (yfinance) is the data source; rate limits are handled with retries+backoff. If Yahoo throttles the runner, the workflow will still push the last-good snapshot rather than breaking.
+- Yahoo Finance (yfinance) remains the equity data source; the previously paused NSE equity-source migration is not resumed. Rate limits are handled with retries/backoff; failures do not republish old data as a successful refresh.
 - ATR = daily Wilder ATR(14). MA slope = 5-week difference. Weekly bars = completed weeks (current partial week excluded).
 - Steve Jacobs' "Buyable / Reduce / Restore / Sell" font-color statuses are not specified in the source material; this dashboard instead uses the sub-stage color coding (Stage 2 green, Stage 4 red, etc.).
 - Earnings badges use Yahoo's next earnings date where available (many NSE symbols lack coverage — shown as no badge).
