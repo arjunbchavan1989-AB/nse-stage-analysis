@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NSE Stock Stage Analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400,500,600,700&family=Inter:wght@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8af34' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 17l6-6 5 5 9-9'/%3E%3Cpath d='M14 7h7v7'/%3E%3C/svg%3E">
+<style>
+:root,
+[data-theme='light'] {
+  --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --bg: #f7f6f2;
+  --surface: #fbfaf7;
+  --surface-2: #ffffff;
+  --surface-offset: #f0ede6;
+  --border: #dcd9d5;
+  --divider: #d4d1ca;
+  --text: #28251d;
+  --text-muted: #7a7974;
+  --text-faint: #bab9b4;
+  --text-inverse: #f9f8f4;
+
+  --bull: #1e7a35;
+  --bull-hover: #19632c;
+  --bull-faint: #b7d6c0;
+  --bear: #a12c2c;
+  --bear-hover: #87211f;
+  --bear-faint: #ecc4c4;
+
+  --s1a: #d97c0a;
+  --s1b: #b8950a;
+  --s2a: #1e7a35;
+  --s2b: #108a52;
+  --s2c: #6f42c1;
+  --s3a: #1f7cbf;
+  --s3b: #1f5fc2;
+  --s4a: #d9534f;
+  --s4b: #c92a25;
+  --s4c: #b015a3;
+  --neutral: #5a5957;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+  --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-sm: 0 1px 2px rgba(40,37,29,.06);
+  --shadow-md: 0 4px 12px rgba(40,37,29,.08);
+}
+[data-theme='dark'] {
+  --bg: #0b0e14;
+  --surface: #14181f;
+  --surface-2: #1c2129;
+  --surface-offset: #1a1f28;
+  --border: #2b3038;
+  --divider: #262a30;
+  --text: #d5d9de;
+  --text-muted: #7a828c;
+  --text-faint: #4c525a;
+  --text-inverse: #0b0e14;
+
+  --bull: #26a65b;
+  --bull-hover: #2eb867;
+  --bull-faint: #3a4d3e;
+  --bear: #e05252;
+  --bear-hover: #ea6565;
+  --bear-faint: #4a3232;
+
+  --s1a: #f59e0b;
+  --s1b: #eab308;
+  --s2a: #22c55e;
+  --s2b: #10b981;
+  --s2c: #a855f7;
+  --s3a: #38bdf8;
+  --s3b: #3b82f6;
+  --s4a: #f87171;
+  --s4b: #ef4444;
+  --s4c: #ec4899;
+  --neutral: #6b7280;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.3);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.5);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html {
+  -moz-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility;
+}
+body {
+  min-height: 100dvh;
+  line-height: 1.55;
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--text);
+  background-color: var(--bg);
+}
+img, picture, video, canvas, svg { display: block; max-width: 100%; height: auto; }
+input, button, textarea, select { font: inherit; color: inherit; }
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; line-height: 1.15; font-weight: 600; }
+p, li, figcaption { text-wrap: pretty; max-width: 72ch; }
+::selection { background: rgba(42,166,91,.25); }
+:focus-visible { outline: 2px solid var(--bull); outline-offset: 3px; border-radius: var(--radius-sm); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms!important; transition-duration: .01ms!important; scroll-behavior: auto!important; } }
+button { cursor: pointer; background: none; border: none; }
+table { border-collapse: collapse; width: 100%; }
+a, button, [role='button'], input, textarea, select { transition: color var(--transition-interactive), background var(--transition-interactive), border-color var(--transition-interactive), box-shadow var(--transition-interactive); }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border-width:0; }
+
+/* Layout */
+.app { max-width: 1600px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+
+/* Header */
+header.app-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;
+}
+.app-title { display: flex; align-items: center; gap: .75rem; }
+.app-title svg { width: 28px; height: 28px; color: var(--s1a); flex-shrink: 0; }
+.app-title h1 { font-size: 1.25rem; letter-spacing: -.01em; }
+.app-title .subtitle { font-size: 12px; color: var(--text-muted); font-family: var(--font-mono); }
+.header-actions { display: flex; align-items: center; gap: .75rem; }
+.last-updated { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); }
+.theme-toggle {
+  width: 36px; height: 36px; border-radius: var(--radius-full);
+  background: var(--surface); border: 1px solid var(--border);
+  display: grid; place-items: center; color: var(--text-muted);
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--text-faint); }
+
+/* Controls */
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-bottom: 1.25rem; }
+.search-input {
+  flex: 1 1 220px; min-width: 220px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: .5rem .875rem;
+  font-family: var(--font-mono); font-size: 13px; color: var(--text);
+}
+.search-input::placeholder { color: var(--text-faint); }
+.search-input:focus { border-color: var(--bull); outline: none; }
+select.view-select {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: .5rem .75rem;
+  font-size: 13px; color: var(--text);
+}
+.view-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; }
+.view-toggle button {
+  padding: .5rem .875rem; font-size: 13px; color: var(--text-muted);
+  background: var(--surface);
+}
+.view-toggle button[aria-pressed='true'] { background: var(--bull); color: #fff; }
+.legend-btn {
+  padding: .5rem .875rem; border: 1px solid var(--border); border-radius: var(--radius-md);
+  font-size: 13px; color: var(--text-muted); background: var(--surface);
+}
+.legend-btn:hover { color: var(--text); border-color: var(--text-faint); }
+
+/* Panels */
+.top-panels {
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.panel {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 1rem;
+}
+.panel-title { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); margin-bottom: .875rem; font-family: var(--font-mono); }
+.chart-wrap {
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+.chart-wrap canvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Boards */
+.board-wrap { position: relative; }
+.board-10 {
+  display: grid; grid-template-columns: repeat(10, 1fr); gap: 1rem;
+  overflow-x: auto; padding-bottom: .5rem;
+  scrollbar-width: thin;
+}
+.stage-col {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); overflow: hidden;
+  display: flex; flex-direction: column; min-width: 210px;
+}
+.stage-col .col-head {
+  padding: .875rem 1rem; color: #0b0e14;
+  display: flex; align-items: baseline; justify-content: space-between; gap: .5rem;
+}
+.stage-col .col-head .head-text {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  align-items: baseline;
+  gap: .25rem;
+  min-width: 0;
+}
+.stage-col .col-head .name {
+  font-size: 12px; font-weight: 700;
+  white-space: nowrap;
+}
+.stage-col .col-head .code {
+  font-family: var(--font-mono); font-size: 10px; opacity: .85;
+  white-space: nowrap;
+}
+.stage-col .col-head .count { font-family: var(--font-mono); font-size: 18px; font-weight: 700; }
+.stage-col.s-1A .col-head { background: var(--s1a); }
+.stage-col.s-1B .col-head { background: var(--s1b); }
+.stage-col.s-2A .col-head { background: var(--s2a); }
+.stage-col.s-2B .col-head { background: var(--s2b); }
+.stage-col.s-2C .col-head { background: var(--s2c); }
+.stage-col.s-3A .col-head { background: var(--s3a); }
+.stage-col.s-3B .col-head { background: var(--s3b); }
+.stage-col.s-4A .col-head { background: var(--s4a); }
+.stage-col.s-4B .col-head { background: var(--s4b); }
+.stage-col.s-4C .col-head { background: var(--s4c); }
+.stage-col.s-UNC .col-head { background: var(--neutral); }
+
+.stage-col .col-body {
+  flex: 1; max-height: 640px; overflow-y: auto;
+  padding: .625rem; display: flex; flex-direction: column; gap: .375rem;
+  scrollbar-width: thin;
+}
+.copy-column {
+  width: 100%; padding: .5rem; font-size: 12px; font-family: var(--font-mono);
+  background: var(--surface-offset); color: var(--text); border-bottom: 1px solid var(--border);
+}
+.copy-column:hover { background: var(--surface-2); }
+.copy-column:disabled { opacity: .45; cursor: default; }
+.stock-card {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: .375rem; padding: .375rem .5rem;
+  background: var(--surface-2); border: 1px solid var(--divider);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono); font-size: 12px;
+  cursor: pointer;
+}
+.stock-card:hover { border-color: var(--text-faint); box-shadow: var(--shadow-sm); }
+.stock-card .sym { font-weight: 700; }
+.stock-card .chg { font-size: 11px; }
+.stock-card .chg.up { color: var(--bull); }
+.stock-card .chg.down { color: var(--bear); }
+.stock-card .chg.flat { color: var(--text-muted); }
+.stock-card .er-badge {
+  font-size: 9px; padding: 1px 5px; border-radius: var(--radius-full);
+  border: 1px solid var(--s1a); color: var(--s1a); flex-shrink: 0;
+}
+.stock-card .score-badge {
+  flex-shrink: 0; width: 22px; height: 22px;
+  border-radius: var(--radius-full); border: 1.5px solid;
+  display: grid; place-items: center; font-size: 10px; font-weight: 700;
+}
+.score-badge.rs-hi { border-color: var(--s3a); color: var(--s3a); }
+.score-badge.rs-lo { border-color: var(--s4a); color: var(--s4a); }
+.stock-card .ext-dot {
+  width: 6px; height: 6px; border-radius: var(--radius-full); flex-shrink: 0;
+  background: var(--s2c); box-shadow: 0 0 6px var(--s2c);
+}
+.stock-card .sym-group { display: flex; align-items: center; gap: .375rem; min-width: 0; }
+.stock-card .sym-group .sym { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Detail modal */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(11,14,20,.75);
+  display: none; align-items: center; justify-content: center; z-index: 100;
+  padding: 1rem; backdrop-filter: blur(4px);
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); max-width: 720px; width: 100%;
+  max-height: 85dvh; overflow-y: auto;
+}
+.modal-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 1.25rem; border-bottom: 1px solid var(--divider);
+}
+.modal-head h2 { font-size: 1.125rem; }
+.modal-close { font-size: 20px; color: var(--text-muted); line-height: 1; }
+.modal-body { padding: 1.25rem; }
+.modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .875rem; }
+.modal-field label { display: block; font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: .25rem; font-family: var(--font-mono); }
+.modal-field .val { font-family: var(--font-mono); font-size: 15px; font-weight: 600; }
+.modal-field .val.up { color: var(--bull); }
+.modal-field .val.down { color: var(--bear); }
+
+/* Table view */
+.table-wrap { overflow-x: auto; }
+table.data-table { width: 100%; min-width: 980px; }
+table.data-table th, table.data-table td {
+  padding: .5rem .75rem; text-align: left; font-size: 13px;
+  border-bottom: 1px solid var(--divider);
+}
+table.data-table th {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-muted); font-family: var(--font-mono);
+  background: var(--surface-offset); position: sticky; top: 0;
+}
+table.data-table td { font-family: var(--font-mono); }
+table.data-table td.sym-cell { font-weight: 700; }
+table.data-table td.up { color: var(--bull); }
+table.data-table td.down { color: var(--bear); }
+table.data-table tbody tr:hover { background: var(--surface-offset); }
+table.data-table .substage-pill {
+  padding: 2px 8px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700;
+  color: #0b0e14; display: inline-block;
+}
+table.data-table .substage-pill.s-1A { background: var(--s1a); }
+table.data-table .substage-pill.s-1B { background: var(--s1b); }
+table.data-table .substage-pill.s-2A { background: var(--s2a); }
+table.data-table .substage-pill.s-2B { background: var(--s2b); }
+table.data-table .substage-pill.s-2C { background: var(--s2c); }
+table.data-table .substage-pill.s-3A { background: var(--s3a); }
+table.data-table .substage-pill.s-3B { background: var(--s3b); }
+table.data-table .substage-pill.s-4A { background: var(--s4a); }
+table.data-table .substage-pill.s-4B { background: var(--s4b); }
+table.data-table .substage-pill.s-4C { background: var(--s4c); }
+table.data-table .substage-pill.s-UNC { background: var(--neutral); color: var(--text); }
+
+/* Empty state */
+.empty-state { text-align: center; padding: 3rem 1rem; color: var(--text-muted); }
+.empty-state .icon { font-size: 2rem; margin-bottom: .5rem; }
+.empty-state p { font-size: 14px; }
+
+/* Sentiment strip */
+.sentiment-strip {
+  display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 1rem;
+}
+.sentiment-strip .sentiment-bar { flex: 1; height: 8px; border-radius: var(--radius-full); overflow: hidden; display: flex; background: var(--divider); }
+.sentiment-strip .seg { height: 100%; }
+.sentiment-strip .seg.b { background: var(--bear); }
+.sentiment-strip .seg.g { background: var(--bull); }
+.sentiment-strip .labels { font-family: var(--font-mono); font-size: 13px; white-space: nowrap; }
+.sentiment-strip .labels .up { color: var(--bull); }
+.sentiment-strip .labels .down { color: var(--bear); }
+
+/* Universe note */
+.universe-note {
+  font-size: 12px; color: var(--text-muted); font-family: var(--font-mono);
+  margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--divider);
+}
+
+@media (max-width: 1100px) {
+  .top-panels { grid-template-columns: 1fr; }
+  .board-10 { grid-template-columns: repeat(5, 1fr); }
+}
+@media (max-width: 600px) {
+  .board-10 { grid-template-columns: repeat(2, 1fr); }
+  .modal-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="app-header">
+    <div class="app-title">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M2 17l6-6 5 5 9-9"/><path d="M14 7h7v7"/>
+      </svg>
+      <div>
+        <h1>NSE Stock Stage Analysis</h1>
+        <div class="subtitle">Weinstein · 10-Substage · RS: NIFTY MidSmallcap 400</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="last-updated" id="lastUpdated">—</div>
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode" title="Toggle theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <input type="search" class="search-input" id="searchInput" placeholder="Search ticker or company..." aria-label="Search">
+    <select class="view-select" id="stageFilter" aria-label="Filter by sub-stage">
+      <option value="">All sub-stages</option>
+      <option value="1A">1A — Upward Pivot</option>
+      <option value="1B">1B — Mean Reversion</option>
+      <option value="2A">2A — Bullish Trend</option>
+      <option value="2B">2B — Breakout Confirm</option>
+      <option value="2C">2C — Extended Bullish</option>
+      <option value="3A">3A — Bullish Fade</option>
+      <option value="3B">3B — Fade Confirmation</option>
+      <option value="4A">4A — Bearish Trend</option>
+      <option value="4B">4B — Breakdown Confirm</option>
+      <option value="4C">4C — Extended Bearish</option>
+    </select>
+    <div class="view-toggle" role="group" aria-label="View mode">
+      <button id="btnColumns" aria-pressed="true">Columns</button>
+      <button id="btnTable" aria-pressed="false">Table</button>
+    </div>
+    <button class="legend-btn" id="btnLegend">Legend</button>
+  </div>
+
+  <div class="sentiment-strip" id="sentimentStrip">
+    <div class="labels"><span class="down" id="sentBear">—</span> bearish</div>
+    <div class="sentiment-bar" id="sentimentBar"></div>
+    <div class="labels"><span class="up" id="sentBull">—</span> bullish</div>
+  </div>
+
+  <div class="top-panels">
+    <div class="panel">
+      <div class="panel-title">Universe Distribution</div>
+      <div class="chart-wrap"><canvas id="distChart"></canvas></div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">Stage Composition (Filtered)</div>
+      <div class="chart-wrap"><canvas id="donutChart"></canvas></div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">Sub-stage Counts</div>
+      <div class="chart-wrap"><canvas id="countsChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="board-wrap" id="columnsView">
+    <div class="board-10" id="board"></div>
+  </div>
+
+  <div class="table-wrap" id="tableView" style="display:none">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Symbol</th><th>Close</th><th>Δ%</th><th>Sub-stage</th><th>MCap (₹cr)</th>
+          <th>Avg Vol</th><th>₹Vol (₹cr)</th><th>Avg Range %</th><th>Vol Ratio</th><th>RS %ile</th>
+          <th>ATR ext</th><th>ER</th><th>New 20d Hi/Lo</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <div class="universe-note">
+    Universe: NSE EQ · mcap > ₹500 cr · 20d avg volume > 70,000 shares · 20d avg ₹ volume > ₹3 cr · 20d avg daily range > 3% ·
+    Last trading date: <span id="tradingDate">—</span> ·
+    RS = 63-session return minus NIFTY MidSmallcap 400, percentile-ranked within final universe.
+    Copy TV copies each column's visible symbols. Paste into TradingView's Add symbols dialog.
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="modalSymbol">—</h2>
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-grid" id="modalGrid"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const STAGE_META = {
+  '1A': { name: 'Upward Pivot', color: '#f59e0b' },
+  '1B': { name: 'Mean Reversion', color: '#eab308' },
+  '2A': { name: 'Bullish Trend', color: '#22c55e' },
+  '2B': { name: 'Breakout Confirm', color: '#10b981' },
+  '2C': { name: 'Extended Bullish', color: '#a855f7' },
+  '3A': { name: 'Bullish Fade', color: '#38bdf8' },
+  '3B': { name: 'Fade Confirmation', color: '#3b82f6' },
+  '4A': { name: 'Bearish Trend', color: '#f87171' },
+  '4B': { name: 'Breakdown Confirm', color: '#ef4444' },
+  '4C': { name: 'Extended Bearish', color: '#ec4899' },
+  'UNC': { name: 'Unclassified', color: '#6b7280' },
+};
+const STAGE_ORDER = ['1A','1B','2A','2B','2C','3A','3B','4A','4B','4C','UNC'];
+
+let DATA = null;
+let charts = { dist: null, donut: null, counts: null };
+let view = 'columns';
+
+const $ = (id) => document.getElementById(id);
+
+function fmtNum(v, d = 0) {
+  return v == null ? '—' : v.toLocaleString('en-IN', { maximumFractionDigits: d, minimumFractionDigits: d });
+}
+function fmtSigned(v, d = 1) {
+  return v == null ? '—' : (v >= 0 ? '+' : '') + v.toFixed(d) + '%';
+}
+function chgClass(v) {
+  if (v == null) return 'flat';
+  if (v > 0.05) return 'up';
+  if (v < -0.05) return 'down';
+  return 'flat';
+}
+function hexToRgba(hex, a = 0.15) {
+  const h = hex.replace('#','');
+  const r = parseInt(h.slice(0,2),16), g = parseInt(h.slice(2,4),16), b = parseInt(h.slice(4,6),16);
+  return `rgba(${r},${g},${b},${a})`;
+}
+
+async function loadData() {
+  const res = await fetch('data/latest.json', { cache: 'no-store' });
+  if (!res.ok) throw new Error('data/latest.json not found');
+  DATA = await res.json();
+}
+
+function renderHeader() {
+  $('lastUpdated').textContent = 'Updated ' + new Date(DATA.generated_at).toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' });
+  $('tradingDate').textContent = DATA.last_trading_date || '—';
+}
+
+function renderSentiment() {
+  const s = DATA.sentiment;
+  const bull = s.bullish, bear = s.bearish;
+  const total = bull + bear || 1;
+  const segBear = (bear / total * 100);
+  const segBull = (bull / total * 100);
+  $('sentBear').textContent = `${fmtNum(bear)} · ${segBear.toFixed(1)}%`;
+  $('sentBull').textContent = `${segNum(bull)} · ${segBull.toFixed(1)}%`;
+  $('sentimentBar').innerHTML = `
+    <div class="seg b" style="width:${segBear}%"></div>
+    <div class="seg g" style="width:${segBull}%"></div>`;
+}
+function segNum(v) { return fmtNum(v); }
+
+function renderCharts() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const textColor = isDark ? '#d5d9de' : '#28251d';
+  const gridColor = isDark ? '#262a30' : '#d4d1ca';
+  Chart.defaults.color = textColor;
+  Chart.defaults.font.family = "'JetBrains Mono', monospace";
+  Chart.defaults.font.size = 10;
+
+  if (charts.dist) charts.dist.destroy();
+  if (charts.donut) charts.donut.destroy();
+  if (charts.counts) charts.counts.destroy();
+
+  // 1. Distribution bar (horizontal stacked by stage group)
+  const groups = [
+    { label: 'Stage 1', key: ['1A','1B'], color: '#eab308' },
+    { label: 'Stage 2', key: ['2A','2B','2C'], color: '#22c55e' },
+    { label: 'Stage 3', key: ['3A','3B'], color: '#3b82f6' },
+    { label: 'Stage 4', key: ['4A','4B','4C'], color: '#ef4444' },
+    { label: 'Unclass.', key: ['UNC', 'UNCLASSIFIED'], color: '#6b7280' },
+  ];
+  const gvals = groups.map(g => g.key.reduce((a, s) => a + (DATA.substage_counts[s] || 0), 0));
+  charts.dist = new Chart($('distChart'), {
+    type: 'bar',
+    data: {
+      labels: groups.map(g => g.label),
+      datasets: [{
+        data: gvals,
+        backgroundColor: groups.map(g => hexToRgba(g.color, 0.35)),
+        borderColor: groups.map(g => g.color),
+        borderWidth: 1.5,
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { enabled: true } },
+      scales: {
+        x: { grid: { color: gridColor } },
+        y: { grid: { color: gridColor }, beginAtZero: true },
+      },
+    },
+  });
+
+  // 2. Donut — bull vs bear composition
+  const bull = DATA.sentiment.bullish, bear = DATA.sentiment.bearish;
+  const n1 = DATA.sentiment.stage1, n3 = DATA.sentiment.stage3;
+  const unc = DATA.sentiment.unclassified || 0;
+  charts.donut = new Chart($('donutChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Bullish (Stage 2)', 'Bearish (Stage 4)', 'Stage 1', 'Stage 3', 'Unclassified'],
+      datasets: [{
+        data: [bull, bear, n1, n3, unc],
+        backgroundColor: [
+          hexToRgba('#22c55e', 0.35),
+          hexToRgba('#ef4444', 0.35),
+          hexToRgba('#eab308', 0.35),
+          hexToRgba('#3b82f6', 0.35),
+          hexToRgba('#6b7280', 0.35),
+        ],
+        borderColor: ['#22c55e','#ef4444','#eab308','#3b82f6','#6b7280'],
+        borderWidth: 2,
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      cutout: '60%',
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 10, boxHeight: 10, padding: 8 } },
+      },
+    },
+  });
+
+  // 3. Sub-stage counts bar
+  const countsOnly = STAGE_ORDER.filter(s => s !== 'UNC');
+  charts.counts = new Chart($('countsChart'), {
+    type: 'bar',
+    data: {
+      labels: countsOnly,
+      datasets: [{
+        data: countsOnly.map(s => DATA.substage_counts[s] || 0),
+        backgroundColor: countsOnly.map(s => hexToRgba(STAGE_META[s].color, 0.35)),
+        borderColor: countsOnly.map(s => STAGE_META[s].color),
+        borderWidth: 1.5,
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false } },
+        y: { grid: { color: gridColor }, beginAtZero: true },
+      },
+    },
+  });
+}
+
+function normalizeSubstage(s) {
+  return s === 'UNCLASSIFIED' ? 'UNC' : s;
+}
+
+function buildStockCard(r) {
+  const el = document.createElement('div');
+  el.className = 'stock-card';
+  el.dataset.symbol = r.symbol;
+  const cls = chgClass(r.chg_pct);
+  const sign = r.chg_pct >= 0 ? '+' : '';
+  let erBadge = '';
+  if (r.earnings_date) {
+    const days = Math.ceil((new Date(r.earnings_date) - new Date(DATA.last_trading_date)) / 86400000);
+    erBadge = `<span class="er-badge">ER ${days >= 0 ? days : '✓'}</span>`;
+  }
+  const rsBadge = r.rs_pct != null
+    ? `<span class="score-badge ${r.rs_pct >= 70 ? 'rs-hi' : 'rs-lo'}">${Math.round(r.rs_pct)}</span>`
+    : '';
+  const extDot = r.steve_extended ? '<span class="ext-dot" title="Extended (≥7 ATR above SMA50)"></span>' : '';
+  el.innerHTML = `
+    <span class="sym-group"><span class="sym">${r.symbol}</span>${extDot}</span>
+    <span class="chg ${cls}">${sign}${r.chg_pct.toFixed(1)}%</span>
+    ${erBadge}${rsBadge}
+  `;
+  el.addEventListener('click', () => openModal(r));
+  return el;
+}
+
+function tradingViewSymbols(rows) {
+  return [...new Set(rows.map(r => 'NSE:' + r.symbol))].join(',');
+}
+
+async function copyColumn(button, rows) {
+  const text = tradingViewSymbols(rows);
+  if (!text) return;
+  const original = button.textContent;
+  try {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch (_) {
+      const area = document.createElement('textarea');
+      area.value = text; area.style.position = 'fixed'; area.style.opacity = '0';
+      document.body.appendChild(area); area.select();
+      const success = document.execCommand('copy');
+      area.remove();
+      if (!success) throw new Error('Clipboard access blocked');
+    }
+    button.textContent = `Copied ${rows.length} symbols`;
+  } catch (_) {
+    const area = document.createElement('textarea');
+    area.value = text; area.readOnly = true;
+    area.setAttribute('aria-label', 'TradingView symbols: select and copy');
+    button.after(area); area.focus(); area.select();
+    button.textContent = 'Clipboard blocked: copy selected text';
+  }
+  setTimeout(() => { button.textContent = original; }, 2500);
+}
+
+function renderBoard(filterText = '', filterStage = '') {
+  const board = $('board');
+  board.innerHTML = '';
+  const grouped = {};
+  for (const s of STAGE_ORDER) grouped[s] = [];
+  for (const r of DATA.rows) {
+    const matchText = !filterText || r.symbol.toLowerCase().includes(filterText);
+    const matchStage = !filterStage || normalizeSubstage(r.substage) === filterStage;
+    if (matchText && matchStage) grouped[normalizeSubstage(r.substage)].push(r);
+  }
+  for (const s of STAGE_ORDER) {
+    const meta = STAGE_META[s];
+    const rows = grouped[s];
+    const col = document.createElement('div');
+    col.className = 'stage-col s-' + s;
+    col.innerHTML = `
+      <div class="col-head">
+        <span class="head-text"><span class="name">${meta.name}</span> <span class="code">• ${s}</span></span>
+        <span class="count">${rows.length}</span>
+      </div>
+      <button type="button" class="copy-column" ${rows.length ? '' : 'disabled'}
+        aria-label="Copy all ${s} symbols for TradingView" title="Copy visible symbols as NSE:SYMBOL, comma separated">Copy TV (${rows.length})</button>
+      <div class="col-body"></div>
+    `;
+    const body = col.querySelector('.col-body');
+    col.querySelector('.copy-column').addEventListener('click', e => copyColumn(e.currentTarget, rows));
+    for (const r of rows) body.appendChild(buildStockCard(r));
+    board.appendChild(col);
+  }
+}
+
+function renderTable(filterText = '', filterStage = '') {
+  const tbody = $('tableBody');
+  tbody.innerHTML = '';
+  for (const r of DATA.rows) {
+    const matchText = !filterText || r.symbol.toLowerCase().includes(filterText);
+    const matchStage = !filterStage || normalizeSubstage(r.substage) === filterStage;
+    if (!matchText || !matchStage) continue;
+    const tr = document.createElement('tr');
+    const cls = chgClass(r.chg_pct);
+    const hl = r.new_20d_high ? '↑Hi' : (r.new_20d_low ? '↓Lo' : '—');
+    tr.innerHTML = `
+      <td class="sym-cell">${r.symbol}</td>
+      <td>${r.close.toFixed(2)}</td>
+      <td class="${cls}">${fmtSigned(r.chg_pct)}</td>
+      <td><span class="substage-pill s-${normalizeSubstage(r.substage)}">${r.substage === 'UNCLASSIFIED' ? 'UNC' : r.substage}</span></td>
+      <td>${fmtNum(r.market_cap_cr)}</td>
+      <td>${fmtNum(r.avg_vol_20d)}</td>
+      <td>${r.avg_rvol_20d_cr.toFixed(2)}</td>
+      <td>${r.avg_range_pct_20d != null ? r.avg_range_pct_20d.toFixed(2) + '%' : '—'}</td>
+      <td>${r.vol_ratio != null ? r.vol_ratio.toFixed(2) + 'x' : '—'}</td>
+      <td>${r.rs_pct != null ? Math.round(r.rs_pct) : '—'}</td>
+      <td>${r.atr_ext_above_sma50 != null ? r.atr_ext_above_sma50.toFixed(2) : '—'}</td>
+      <td>${r.earnings_date ? r.earnings_date : '—'}</td>
+      <td>${hl}</td>
+    `;
+    tr.addEventListener('click', () => openModal(r));
+    tbody.appendChild(tr);
+  }
+}
+
+function openModal(r) {
+  $('modalSymbol').textContent = r.symbol;
+  const substageKey = normalizeSubstage(r.substage);
+  const cls = chgClass(r.chg_pct);
+  const grid = $('modalGrid');
+  grid.innerHTML = `
+    <div class="modal-field"><label>Sub-stage</label><div class="val">${r.substage === 'UNCLASSIFIED' ? 'UNC — Unclassified' : r.substage + ' — ' + (STAGE_META[substageKey]?.name || '—')}</div></div>
+    <div class="modal-field"><label>Close</label><div class="val">₹${r.close.toFixed(2)}</div></div>
+    <div class="modal-field"><label>Δ% (1d)</label><div class="val ${cls}">${fmtSigned(r.chg_pct)}</div></div>
+    <div class="modal-field"><label>Market cap</label><div class="val">₹${fmtNum(r.market_cap_cr)} cr</div></div>
+    <div class="modal-field"><label>Avg volume (20d)</label><div class="val">${fmtNum(r.avg_vol_20d)} sh</div></div>
+    <div class="modal-field"><label>Avg ₹ volume (20d)</label><div class="val">₹${r.avg_rvol_20d_cr.toFixed(2)} cr</div></div>
+    <div class="modal-field"><label>Avg daily range (20d)</label><div class="val">${r.avg_range_pct_20d != null ? r.avg_range_pct_20d.toFixed(2) + '%' : '—'}</div></div>
+    <div class="modal-field"><label>Volume ratio</label><div class="val">${r.vol_ratio != null ? r.vol_ratio.toFixed(2) + 'x' : '—'}</div></div>
+    <div class="modal-field"><label>RS percentile</label><div class="val">${r.rs_pct != null ? Math.round(r.rs_pct) : '—'}</div></div>
+    <div class="modal-field"><label>63-session excess return vs MidSmallcap 400</label><div class="val">${r.rs_excess_pct != null ? (r.rs_excess_pct >= 0 ? '+' : '') + r.rs_excess_pct.toFixed(2) + ' pp' : '—'}</div></div>
+    <div class="modal-field"><label>ATR above SMA50</label><div class="val">${r.atr_ext_above_sma50 != null ? r.atr_ext_above_sma50.toFixed(2) : '—'}</div></div>
+    <div class="modal-field"><label>Steve ext. badge</label><div class="val">${r.steve_extended ? 'Yes (≥7 ATR)' : 'No'}</div></div>
+    <div class="modal-field"><label>New 20d high</label><div class="val">${r.new_20d_high ? 'Yes' : 'No'}</div></div>
+    <div class="modal-field"><label>New 20d low</label><div class="val">${r.new_20d_low ? 'Yes' : 'No'}</div></div>
+    <div class="modal-field"><label>Earnings date</label><div class="val">${r.earnings_date || '—'}</div></div>
+    <div class="modal-field"><label>Notes</label><div class="val" style="font-size:13px;font-weight:400">${r.notes || '—'}</div></div>
+  `;
+  $('modalOverlay').classList.add('open');
+}
+
+function bind() {
+  const search = $('searchInput');
+  search.addEventListener('input', () => {
+    const q = search.value.trim().toLowerCase();
+    const stage = $('stageFilter').value;
+    renderBoard(q, stage); renderTable(q, stage);
+  });
+  $('stageFilter').addEventListener('change', () => {
+    const q = $('searchInput').value.trim().toLowerCase();
+    renderBoard(q, $('stageFilter').value); renderTable(q, $('stageFilter').value);
+  });
+  $('btnColumns').addEventListener('click', () => setView('columns'));
+  $('btnTable').addEventListener('click', () => setView('table'));
+  $('modalClose').addEventListener('click', () => $('modalOverlay').classList.remove('open'));
+  $('modalOverlay').addEventListener('click', (e) => { if (e.target === $('modalOverlay')) $('modalOverlay').classList.remove('open'); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('modalOverlay').classList.remove('open'); });
+  $('btnLegend').addEventListener('click', () => {
+    alert(
+      'Sub-stage Legend (Steve Jacobs adaptation of Weinstein Stage Analysis):\n\n' +
+      '1A Upward Pivot · 10w EMA below 20w EMA, price stabilizing\n' +
+      '1B Mean Reversion · 10w EMA above 20w EMA, price recovering\n' +
+      '2A Bullish Trend · Above rising 30w SMA\n' +
+      '2B Breakout Confirm · 2A + new 20-day high\n' +
+      '2C Extended Bullish · 2A + ≥4.6 ATR above 50d SMA\n' +
+      '3A Bullish Fade · Above 30w SMA, below 10w EMA\n' +
+      '3B Fade Confirmation · Above 30w SMA, 10w EMA < 20w EMA\n' +
+      '4A Bearish Trend · Below falling 30w SMA\n' +
+      '4B Breakdown Confirm · 4A + new 20-day low\n' +
+      '4C Extended Bearish · 4A + ≥3 ATR below 50d SMA\n\n' +
+      'Circular badge = 63-session RS percentile (vs NIFTY MidSmallcap 400, ranked in universe).\n' +
+      'Purple dot = Steve Jacobs extension (≥7 ATR above SMA50).\n' +
+      'ER = days to earnings.'
+    );
+  });
+}
+function setView(v) {
+  view = v;
+  $('btnColumns').setAttribute('aria-pressed', String(v === 'columns'));
+  $('btnTable').setAttribute('aria-pressed', String(v === 'table'));
+  $('columnsView').style.display = v === 'columns' ? '' : 'none';
+  $('tableView').style.display = v === 'table' ? '' : 'none';
+}
+
+async function init() {
+  try {
+    await loadData();
+    renderHeader(); renderSentiment(); renderCharts(); renderBoard(); renderTable(); bind();
+  } catch (e) {
+    document.querySelector('.board-wrap').innerHTML =
+      `<div class="empty-state"><div class="icon">⚠</div><p>Failed to load data: ${e.message}</p></div>`;
+  }
+}
+init();
+</script>
+</body>
+</html>
